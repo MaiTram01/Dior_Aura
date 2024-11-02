@@ -1,0 +1,375 @@
+body {
+    font-family: 'Kaisei Tokumin', serif;
+    padding-top: 50px;
+    /* Điều chỉnh theo chiều cao header */
+    margin: 0;
+    /* Đảm bảo không có lề mặc định */
+    overflow-x: hidden;
+    /* Ngăn chặn cuộn ngang */
+}
+
+/* <!-- THANH HEADER PHÍA TRÊN ĐIỀU HƯỚNG -->*/
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #F7C9CC;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* Đảm bảo header nằm trên các phần tử khác */
+}
+
+.header-left,
+.header-right {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    /* Tắt dấu chấm tròn */
+}
+
+.header-left li,
+.header-right li {
+    margin-right: 20px;
+}
+
+/* Đặt container cho input và button */
+.input-container {
+    position: relative;
+    width: 300px;
+    /* Độ rộng của input và button */
+}
+
+/* Đặt style cho input */
+.input-container input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    padding-right: 1px;
+    /* Chừa khoảng trống cho nút button */
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+}
+
+/* Đặt style cho button */
+.input-container button {
+    position: absolute;
+    right: 25px;
+    top: 2px;
+    height: 90%;
+    width: 40px;
+    background-color: white;
+    border: none;
+    padding: -3 10px;
+    border-radius: 0 10px 10px 0;
+    /* Bo góc phải của button */
+    cursor: pointer;
+}
+
+.fa-regular.fa-magnifying-glass {
+    color: black;
+    /* Đặt màu biểu tượng thành đen */
+    font-size: 100%;
+}
+
+/* Chỉnh thêm nút và các mục trong header */
+.header-right li {
+    display: flex;
+    align-items: center;
+}
+
+.header li a {
+    color: white;
+    /* Đặt màu trắng cho cả biểu tượng và văn bản */
+    text-decoration: none;
+    /* Tắt gạch chân nếu cần */
+}
+
+.header li a:hover {
+    color: #e77e7e;
+    /* Thêm hiệu ứng hover nếu cần, ví dụ màu xám nhạt */
+}
+
+
+/* <!-- THANH HEADER PHÍA DƯỚI --> */
+#head-pay {
+    text-align: center;
+}
+
+
+.head-pay h1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    /* Tạo khoảng cách dưới tiêu đề */
+    font-size: 50px;
+}
+
+.head-pay nav ul {
+    list-style-type: none;
+    /* Tắt dấu chấm tròn */
+    padding: 0;
+    /* Loại bỏ khoảng cách mặc định của ul */
+    margin: 0;
+    display: flex;
+    /* Sử dụng flexbox để sắp xếp các mục nằm ngang */
+    justify-content: center;
+    /* Căn giữa các mục */
+}
+
+.head-pay nav ul li {
+    margin: 0 15px;
+    /* Tạo khoảng cách giữa các mục */
+}
+
+.head-pay nav ul li a {
+    text-decoration: none;
+    /* Tắt gạch chân */
+    color: black;
+    /* Màu văn bản */
+    font-weight: bold;
+    /* Tăng độ đậm của văn bản */
+}
+
+.head-pay nav ul li a:hover {
+    color: #888;
+}
+
+.underline {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(216, 202, 202);
+    margin: 10px;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* Light background */
+    padding: 50px;
+}
+
+
+/* Style cho ô thông báo */
+.notification-box {
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: #F7C9CC;
+    /* Màu nền */
+    color: rgb(2, 0, 0);
+    padding: 15px;
+    border-radius: 5px;
+    top: 55px;
+    /* Điều chỉnh khoảng cách từ icon đến thông báo */
+    right: 180px;
+    /* Căn phải với icon */
+    z-index: 1;
+    /* Đảm bảo thông báo nằm trên các phần tử khác */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.3, 0.7);
+    /* Hiệu ứng đổ bóng */
+}
+
+
+/* Page Title */
+#head-pay {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.head-pay p {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+.underline1 {
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+}
+
+/* Order and Payment Details Grid */
+.g-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.g-grid-col1 {
+    padding-bottom: 30px;
+    background-color: white;
+    border-right: 1px solid #000000;
+}
+
+.g-grid-col2 {
+    padding-bottom: 30px;
+    background-color: white;
+    border-left: 1px solid #000000;
+
+}
+
+.g-grid-col1 h3 {
+    font-size: 24px;
+    margin: 20px 0px 10px 30px;
+}
+
+.g-grid-col2 h3 {
+    font-size: 24px;
+    margin: 20px 0px 10px 30px;
+}
+
+.g-grid-col2 p {
+    margin: 10px 0px 17px 30px;
+}
+
+.g-grid-col2 label {
+    padding-bottom: 10px;
+}
+
+.underline2 {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(141, 140, 140);
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.underline3 {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(141, 140, 140);
+    margin-bottom: 20px;
+}
+/* Order Items */
+.order-item {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.order-item img {
+    width: 200px;
+    height: 200px;
+    margin: 0px 30px;
+    object-fit: contain;
+}
+
+.order-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.pname {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.describe {
+    margin-bottom: 10px;
+    color: #757474;
+}
+
+.qty, .price {
+    font-weight: bold;
+}
+
+
+/* Payment Details */
+.g-grid-col2 label {
+    display: block;
+    margin: 10px 0 0 30px;
+}
+
+.g-grid-col2 input {
+    width: 700px;
+    padding: 10px;
+    margin: 5px 30px 5px 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Summary */
+.total-summary {
+    max-width: 900px;
+    margin: 20px 30px 0px 30px;
+  }
+
+  .total-summary div {
+    margin-bottom: 10px;
+  }
+
+  .payment-method {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+
+  .payment-method strong {
+    font-size: 17px;
+    width: 150px;
+  }
+
+  .payment-method input {
+    width: 15px;
+    margin-right: 5px;
+  }
+
+  .detail-title strong {
+    font-size: 20px;
+  }
+  
+
+  /* .total-summary .payment-method span{
+    color: #FF0000; 
+    padding-left: 55px;
+  } */
+
+  .total-summary .detail-title {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+
+  .total-summary span {
+    margin-left: 10px;  
+  }
+  
+  .total-payment {
+    color: #FF0000;
+  }
+
+  .total-summary .i {
+    color: #757474;
+  }
+
+.underline4 {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(141, 140, 140);
+    margin: 30px 0px 30px 0px;
+}
+
+.suggest {
+    margin-left: 30px;
+    color: #000000;
+    font-size: 14px;
+}
+
+.order-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100px;
+    margin-left: 210px;
+
+}
