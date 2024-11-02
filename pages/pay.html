@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dior | Pay</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../asserts/css/pay.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="header-left">
+            <li><a href=""><i class="fa-solid fa-phone"></i> Customer Service</a></li>
+            <li><a href=""><i class="fa-solid fa-location-dot"></i> The Boutiques</a></li>
+        </nav>
+
+        <nav class="header-right">
+            <div class="input-container">
+
+                <input type="text" id="header-input" placeholder="Search on dior.com">
+                <button class="button-search" onclick="search()">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <li>
+                <a href="javascript:void(0)">
+                    <i class="fa-solid fa-bell" onclick="toggleNotification()"></i>
+                </a>
+                <!-- html cho thành thông báo -->
+                <div class="notification-box" id="notificationBox">
+                    <span class="closebtn" onclick="hideNotification()">&times;</span>
+                    <p id="ok">No new notifications.</p>
+                    <!-- Phần tử để hiển thị thông báo -->
+                </div>
+            </li>
+            <li>
+                <a href="javascript:void(0)" onclick="handleCart()">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </li>
+            <li><a class="Dangnhap"><i class="fa-solid fa-user-large"></i> Log in</a></li>
+            <li><span style="color: white;" class="Dangnhap">/</span></li>
+            <li><a href="javascript:void(0)" class="Dangxuat">Logout</a></li>
+            <li><a class="Dangnhap">Sign in</a></li>
+        </nav>
+
+    </header>
+    <!-- Header Title -->
+    <header class="head-pay" id="head-pay">
+        <p style="cursor: pointer;">Dior </p>
+        <p style="margin-left: 8px;">| Pay</p>
+    </header>
+
+    <div class="underline1"></div>
+
+    <!-- Order and Payment Details -->
+    <div class="g-grid">
+        <div class="g-grid-col1">
+            <h3>Order</h3>
+            <div class="underline2"></div>
+        </div>
+
+        <div class="g-grid-col2">
+            <h3>Payment Details</h3>
+            <p>Complete your purchase by providing your payment details:</p>
+            <div class="underline3"></div>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" placeholder="Enter your address">
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" placeholder="Enter your phone">
+
+            <label for="note">Note:</label>
+            <input type="text" id="note" placeholder="Enter any message">
+
+            <div class="total-summary">
+                <div class="payment-method" style="display: flex; align-items: center;">
+                    <strong>Payment method: </strong>
+                    <label style="margin-left: 15px;">
+                        <input type="radio" name="payment" value="cod">
+                        Cash on Delivery
+                    </label>
+                    <label style="margin-left: 15px;">
+                        <input type="radio" name="payment" value="credit-card">
+                        Credit Card
+                    </label>
+                    <label style="margin-left: 15px;">
+                        <input type="radio" name="payment" value="paypal">
+                        PayPal
+                    </label>
+                </div>
+
+                <div class="detail-title"> <span> Detail </span> </div>
+                <div class="i">Total cost of goods: <span>$400.000</span></div>
+                <div class="i">Shipping fee: <span>$30.000</span></div>
+                <div class="i">Total Discount Voucher: <span>0</span></div>
+                <div class="i">Total payment: <span class="total-payment" onclick="">$430.000</span></div>
+            </div>
+            <div class="underline4"></div>
+            <span class="suggest">Clicking "Order" means you agree to abide by Dior Terms</span>
+            <button class="order-button" onclick="Order()">Order</button>
+
+        </div>
+    </div>
+
+    <script src="../asserts/javaScript/pay.js"></script>
+    <script src="../asserts/javaScript/filter.js"></script>
+    <script src="../asserts/javaScript/Login.js"></script>
+    <script src="../asserts/javaScript/cart.js"></script>
+</body>
+
+</html>
