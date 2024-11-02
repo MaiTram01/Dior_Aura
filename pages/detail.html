@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detal_Product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://www.dior.com/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+    <link rel="stylesheet" href="../asserts/css/detail.css">
+</head>
+<body>
+    <!-- PHẦN DETAIL_PRODUCT -->
+    <div class="product-detail-container">
+        <div class="img-product-detail">
+            <!-- Left section with multiple images -->
+            <div class="image-gallery" id="image-gallery"></div>
+            <!-- Main large image section -->
+            <div class="main-image">
+                <img id="mainImage" src="" alt="Large Product Image">
+            </div>
+        </div>
+        <div class="infor-product-detail">
+            <p class="best-seller"># Best Seller</p>
+            <h2 id="product-name">Product Name</h2>
+            <h6 id="product-description">Product Description</h6>
+
+            <div class="underline-top-product-detail"></div>
+
+            <div class="select-product-detail">
+                <div class="dropdown">
+                    <div class="dropdown-selected">
+                        <span id="product-size">Select Size</span>
+                        <span id="product-price"></span>
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <ul class="dropdown-list" id="size-list"></ul>
+                </div>
+            </div>
+
+            <div class="underline-bottom-product-detail"></div>
+
+            <div class="personalize-section">
+                <i class="fa-solid fa-pen"></i>
+                <a href="#">Personalize this product with an engraved message</a>
+                <i class="fa-solid fa-times close-personalization"></i>
+            </div>
+
+
+
+            <a href="#" class="text-muted">DELIVERY & RETURNS</a>
+        </div>
+    </div>
+
+    <div class="product-review-section" id="product-review-section"></div>
+    <!--Kết-->
+
+
+
+
+
+
+    <script>
+      
+        // Dữ liệu cục bộ (local data)
+        // Lấy productId từ URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+        if (!localStorage.getItem("cardList")) {
+        localStorage.setItem("cardList", JSON.stringify(cardList));
+        }
+        // Lấy dữ liệu từ localStorage
+        const localData = JSON.parse(localStorage.getItem('cardList')) || [];
+
+        // Tìm sản phẩm theo id trong localData
+        const product = localData.find(p => p.id == productId);
+
+        if (product) {
+            document.getElementById('product-name').textContent = product.name;
+            document.getElementById('product-description').textContent = product.description;
+
+            const imageGallery = document.getElementById('image-gallery');
+            if (imageGallery) {
+                product.images.forEach((image) => {
+                    const imgTag = document.createElement('img');
+                    imgTag.src = image.src;
+                    imgTag.alt = image.alt;
+                    imgTag.onclick = () => changeImage(image.src);
+                    imageGallery.appendChild(imgTag);
+                });
+
+                document.getElementById('mainImage').src = product.images[0].src;
+            }
+            const sizeList = document.getElementById('size-list');
+            if (sizeList) {
+                product.sizeOptions.forEach(sizeOption => {
+                    const liTag = document.createElement('li');
+                    liTag.classList.add('dropdown-item');
+                    liTag.innerHTML = `<span>${sizeOption.size}</span><span class="price-product-detail">${sizeOption.price}</span>`;
+                    liTag.onclick = () => {
+                        document.getElementById('product-size').textContent = sizeOption.size;
+                        document.getElementById('product-price').textContent = sizeOption.price;
+                        sizeList.style.display = 'none';
+                    };
+                    sizeList.appendChild(liTag);
+                });
+
+                document.querySelector('.dropdown-selected').addEventListener('click', function () {
+                    sizeList.style.display = (sizeList.style.display === 'none' || sizeList.style.display === '') ? 'block' : 'none';
+                });
+            }
+
+            const reviewSection = document.getElementById('product-review-section');
+            if (reviewSection) {
+                const review = product.reviews;
+                reviewSection.innerHTML = `
+            <div class="button-add-product-detail">
+              <input type="number" id="product-quantity" value="1" min="1" class="qty-product-detail">
+              <button class="btn" onclick="addCartAndSaveId(${product.id})">Add to Cart</button>
+            </div>
+            <div class="product-description">
+              ${product.descriptionText.map(text => `<p>${text}</p>`).join('')}
+            </div>
+            <div class="reviews-container">
+              <div class="review-summary">
+                <h2>Evaluate Product Reviews (${review.total_reviews} reviews)</h2>
+                <div class="rating">
+                  <div class="stars">
+                    <strong>${review.average_rating}/5</strong>
+                    ${generateStars(review.average_rating)}
+                  </div>
+                </div>
+              </div>
+              <div class="review-stats">
+                ${generateRatingStats(review.ratings)}
+              </div>
+            </div>
+          `;
+
+                function addCartAndSaveId(productId) {
+                    // Gọi hàm thêm sản phẩm vào giỏ hàng
+                    addCart(productId);
+
+                    // Lấy danh sách ID từ localStorage, nếu chưa có thì tạo mảng trống
+                    let listID = JSON.parse(localStorage.getItem('listID')) || [];
+
+                    listID.push(productId);
+                    // Lưu lại danh sách ID vào localStorage
+                    localStorage.setItem('listID', JSON.stringify(listID));
+
+                    alert(`Product ID ${productId} has been added to the list.`);
+                }
+                const reviewButtonSection = `
+            <div class="review-button">
+              <button class="write-review-btn">Write a Review</button>
+            </div>
+            <div class="sort-options">
+              <span>1 - 8 of ${review.total_reviews} Reviews</span>
+              <div class="sort-by">
+                <span>Sort: </span>
+                <p value="relevant">Most Relevant</p>
+                <i class="fa-solid fa-sliders"></i>
+              </div>
+            </div>
+          `;
+                reviewSection.innerHTML += reviewButtonSection;
+
+                review.review_details.forEach(r => {
+                    const reviewCard = `
+              <div class="review-card">
+                <div class="review-header">
+                  <div class="review-rating">${r.rating}</div>
+                  <div class="review-date">${r.date}</div>
+                </div>
+                <div class="review-content">
+                  <h3 class="review-title">${r.title}</h3>
+                  <p>${r.content}</p>
+                </div>
+                <div class="review-footer">
+                  <span class="brand-name">${r.brand}</span>
+                  <span class="source">${r.source}</span>
+                </div>
+              </div>
+            `;
+                    reviewSection.innerHTML += reviewCard;
+                });
+            }
+        }
+
+        function generateStars(rating) {
+            let stars = '';
+            for (let i = 1; i <= 5; i++) {
+                if (i <= Math.floor(rating)) {
+                    stars += '<i class="fa-solid fa-star"></i>';
+                } else if (i - rating < 1) {
+                    stars += '<i class="fa-solid fa-star-half"></i>';
+                } else {
+                    stars += '<i class="fa-regular fa-star"></i>';
+                }
+            }
+            return stars;
+        }
+
+        function generateRatingStats(ratings) {
+            return ratings.map(rating => `
+          <div class="stat">
+            <div class="stars">
+              ${'<i class="fa-solid fa-star"></i>'.repeat(rating.stars)}
+              ${'<i class="fa-regular fa-star"></i>'.repeat(5 - rating.stars)}
+            </div>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: ${rating.percent};"></div>
+            </div>
+            <strong>${rating.count}</strong>
+          </div>
+        `).join('');
+        }
+
+        function changeImage(src) {
+            document.getElementById('mainImage').src = src;
+        }
+
+        function addCart(productId) {
+            const quantity = parseInt(document.getElementById('product-quantity').value);
+
+            // Tạo đối tượng sản phẩm với ID và số lượng
+            const product = {
+                id: productId,
+                quantity: quantity
+            };
+
+            // Lấy dữ liệu giỏ hàng từ localStorage, nếu chưa có thì tạo mảng rỗng
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+            // Kiểm tra xem sản phẩm đã có trong giỏ hàng chưa
+            const existingProduct = cart.find(item => item.id === productId);
+            if (!existingProduct) {
+                // Nếu sản phẩm chưa có, thêm vào giỏ hàng
+                cart.push(product);
+                localStorage.setItem('cart', JSON.stringify(cart));
+                alert(`Product ID ${productId} has been added to the cart.`);
+            }
+        }
+
+        function viewCart() {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartDisplay = document.getElementById('cart-display');
+            const cartItemsDiv = document.getElementById('cart-items');
+
+            cartItemsDiv.innerHTML = '';
+
+            if (cart.length === 0) {
+                cartItemsDiv.innerHTML = '<p>Your cart is empty.</p>';
+            } else {
+                cart.forEach(item => {
+                    cartItemsDiv.innerHTML += `<p>Product ID: ${item.id}, Quantity: ${item.quantity}</p>`;
+                });
+            }
+
+            cartDisplay.style.display = 'block';
+        }
+    </script>
+
+</body>
+
+</html>
