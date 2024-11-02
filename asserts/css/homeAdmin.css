@@ -1,0 +1,405 @@
+body {
+    font-family: 'Kaisei Tokumin', serif;
+    padding-top: 50px;
+    /* Điều chỉnh theo chiều cao header */
+    margin: 0;
+    /* Đảm bảo không có lề mặc định */
+    overflow-x: hidden;
+    /* Ngăn chặn cuộn ngang */
+}
+
+/* <!-- THANH HEADER PHÍA TRÊN ĐIỀU HƯỚNG -->*/
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #F7C9CC;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* Đảm bảo header nằm trên các phần tử khác */
+}
+
+.header-left,
+.header-right {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    /* Tắt dấu chấm tròn */
+}
+
+.header-left li,
+.header-right li {
+    margin-right: 20px;
+}
+
+/* Đặt container cho input và button */
+.input-container {
+    position: relative;
+    width: 300px;
+    /* Độ rộng của input và button */
+}
+
+/* Đặt style cho input */
+.input-container input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    padding-right: 1px;
+    /* Chừa khoảng trống cho nút button */
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+}
+
+/* Đặt style cho button */
+.input-container button {
+    position: absolute;
+    right: 25px;
+    top: 2px;
+    height: 90%;
+    width: 40px;
+    background-color: white;
+    border: none;
+    padding: -3 10px;
+    border-radius: 0 10px 10px 0;
+    /* Bo góc phải của button */
+    cursor: pointer;
+}
+
+.fa-regular.fa-magnifying-glass {
+    color: black;
+    /* Đặt màu biểu tượng thành đen */
+    font-size: 100%;
+}
+
+/* Chỉnh thêm nút và các mục trong header */
+.header-right li {
+    display: flex;
+    align-items: center;
+}
+
+.header li a {
+    color: white;
+    /* Đặt màu trắng cho cả biểu tượng và văn bản */
+    text-decoration: none;
+    /* Tắt gạch chân nếu cần */
+}
+
+.header li a:hover {
+    color: #e77e7e;
+    /* Thêm hiệu ứng hover nếu cần, ví dụ màu xám nhạt */
+}
+
+.content{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: 100%;
+}
+.content .content-left{
+    /* border-right: 1px solid black; */
+    width: 270px;
+    position: fixed;
+    margin-top: 30px;
+  
+}
+.content-right{
+    margin-left: 270px;
+    border-left: 1px solid black;
+    height: 100%; 
+}
+.header_content, .btn_create{
+    margin-left: 20px;
+    margin-bottom: 10px;
+   
+}
+.btn_create{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: pink;
+    border: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+b{
+    font-size: 18px;
+   
+}
+.title_left li{
+    padding-left: 20px;
+    /* padding-top: 10px; */
+    list-style-type: none;
+    margin: 30px 0;
+    font-size: 16px;
+   
+    
+}
+.title_left li:hover{
+    cursor: pointer;
+    color: black;
+}
+/* moi them */
+.body_content{
+    border-top: 1px solid black;
+    margin-top: 110px;
+}
+.header-content{
+    position: fixed;
+    top: 60px;
+    margin-bottom: 5px;
+    background-color: white;
+    width: 100%;
+}
+.th_table{
+    padding: 15px 120px;
+    background-color: #F7C9CC;
+    margin-top: 30px;
+   
+}
+/* CREATE */
+
+.containerr, .containerr_update{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 830px ;
+    max-height: 95vh;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 10px;
+    left: 350px;
+    z-index: 1000;
+    display: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 5px rgba(233, 148, 190, 0.78);
+    backdrop-filter: blur(8px);
+    overflow-y: auto; 
+}
+
+.header_add{
+    font-family: "Kaisei Tokumin";  
+    text-align: center;
+}
+.input{
+    width: 80%;
+    height: 40px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+    outline: none;
+    font-family: "Kaisei Tokumin";
+}
+#comments, #comments_update{
+    width: 80%;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+    outline: none;
+    margin-top: 5px;
+    font-family: "Kaisei Tokumin";
+}
+
+.nameInput, .titleInput, .priceInput, .description, .categogyInput, .image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 70px;
+    margin: 10px 0;
+  }
+#pro_table{
+    border-collapse: collapse; 
+
+}
+.imageOption, .typePro, .colorPro , .capacityPro{ 
+    width: 100%;
+    padding-left: 70px;
+    margin: 10px 0;
+}
+.product-type, .file-input{
+    margin-bottom: 10px;
+}
+.subProduct, .cancelProduct{
+    width: 170px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color:#4ecf4e ;
+    margin-top: 30px;
+    font-family: "Kaisei Tokumin";
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    /* margin-left: 250px; */
+}
+.subProduct:hover{
+    cursor: pointer;
+    background-color:#60eb60 ;
+}
+.cancelProduct{
+    background-color: #f87e86;
+    /* float: right; */
+}
+.cancelProduct:hover{
+    cursor: pointer;
+    background-color: #d8b17d;
+}
+.btn-group{
+    display: flex;
+    justify-content: space-around;
+}
+.content_product {
+    display: block; /* Bắt đầu ẩn */
+}
+
+.content_users {
+    display: none;
+}
+.bi-search{
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.quantities{
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    font-size: 18px;
+    
+}
+#name-title-pro{
+    color: #d87d83;
+}
+.btn:hover {
+    transform: scale(1.1);
+
+}
+
+.radio-group label{
+    margin-right: 7px;
+}
+.radio-group2 label{
+    margin-right: 10px;
+}
+/* Xác nhận xóa va update*/
+.confirmation-box, .confirmation-update {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    position: fixed;
+    
+    top: 300px; /* Đặt vị trí từ trên xuống giữa màn hình */
+    left: 50%; /* Đặt vị trí từ trái sang giữa màn hình */
+    transform: translate(-50%, -50%); /* Điều chỉnh vị trí về giữa */
+    z-index: 1000; /* Đảm bảo form nằm trên các phần tử khác */
+    display: none  ;
+}
+.confirmation-update{
+    width: 350px;
+    display: none;
+}
+.confirmation-box h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+.confirmation-box p {
+    margin-bottom: 20px;
+    color: #666;
+}
+.button {
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.button.confirm {
+    background-color: #f44336;
+    color: white;
+}
+.button.cancel {
+    background-color: #e0e0e0;
+    color: black;
+}
+.button:hover {
+    transform: translateY(-2px);
+}
+.button.confirm:hover {
+    background-color: #d32f2f;
+}
+.button.cancel:hover {
+    background-color: #d6d6d6;
+}
+#btn-edit{
+    background-color: greenyellow;
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-delete{
+    background-color: rgb(248, 64, 64);
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* css cho color khi them product */
+.color-options, .capacity-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.color-options label, .capacity-options label {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.color-options span {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px; /* Khoảng cách giữa ô vuông và tên màu */
+}
+/* Tim Kiem */
+#results{
+    padding: 0;
+    width: 300px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Tạo bóng đen */
+    
+}
+#results li{
+    background-color: white;
+    width: 100%;
+    padding-left: 10px;
+    line-height: 40px;
+    
+}
+#results li:hover{
+    background-color: #F7C9CC;
+}
+/* Ket thuc tim kiem */

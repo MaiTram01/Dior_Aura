@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order_Admin</title>
+    <link rel="stylesheet" href="../asserts/css/orderAdmin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://www.dior.com/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="header-left">
+            <li><a href="javascript:void(0)"><i class="fa-solid fa-phone"></i> Customer Service</a></li>
+            <li><a href="javascript:void(0)"><i class="fa-solid fa-location-dot"></i> The Boutiques</a></li>
+        </nav>
+    
+        <nav class="header-right">
+            <div class="input-container">
+                <input type="text" id="header-input" class="header-input" placeholder="Search on dior.com">
+                <button class="button-search" onclick="search()">
+                    <i style="color:rgb(176, 168, 168);" class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+    
+            <li>
+                <a href="javascript:void(0)">
+                    <i class="fa-solid fa-bell" onclick="toggleNotification()"></i>
+                </a>
+            </li>
+            <li><a href=""><i class="fa-solid fa-user-large"></i> Admin</a></li>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="content-left">
+            <ul class="title_left"><b>CODE</b>
+                <li  onclick="openProduct()" ><i class="bi bi-browser-safari"></i>  Product Management</li>
+                <li onclick="openUser()"><i class="bi bi-browser-safari"></i>  Users Management</li>
+                <li id="title-order" onclick="openConfirmation()"><i class="bi bi-box"></i>  Order Confirmation</li>
+            </ul>
+            <ul class="title_left"><b>INTERFACE</b>
+                <li><i class="bi bi-layout-split"></i>  Layout</li>
+                <li><i class="bi bi-book"></i>  Page</li>
+            </ul>
+            <ul class="title_left"><b>ADDONS</b>
+                <li onclick="openChart()"><i class="bi bi-bar-chart-line-fill"></i>  Chart</li>
+                <li><i class="bi bi-table"></i> Table</li>
+            </ul>
+        </div>
+        <div class="content-right" >
+            <div class="content_product">
+                <div class="header-content">
+                    <h2 class="header_content">Order Confirmation</h2>   
+                </div>
+                <div class="btn_header">
+                    <button onclick="openAll()" class="btn_items">All</button>
+                    <button onclick="openWaitingConfirm()" class="btn_items">Not confirmed</button>
+                    <button onclick="openConfirmed()" class="btn_items">Confirmed</button>
+                </div>
+                <div class="body_content">
+                    <table id="pro_table">
+                        <!-- <thead>
+                            <tr>
+                                <th onclick="openAll()" class="th_table " id="th_table_1">All</th>
+                                <th onclick="openWaitingConfirm()" class="th_table " id="th_table_2">Not confirmed</th>
+                                <th onclick="openConfirmed()" class="th_table " id="th_table_3">Confirmed</th>
+                                <th onclick="openDelivered()" class="th_table " id="th_table_4"></th>
+                                <th onclick="openCanceled()" class="th_table " id="th_table_5"></th>
+                            </tr>
+                        </thead> -->
+                        <thead class="bar">
+                            <tr class="bar_tr">
+                                <th class="th_bar">ID</th>
+                                <th class="th_bar">Product</th>
+                                <th class="th_bar">Customer</th>
+                                <th class="th_bar">Price</th>
+                                <th class="th_bar">Quantity</th>
+                                <th class="th_bar">Price Total </th>
+                                <th class="th_bar">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="content_table">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="../asserts/javaScript/orderAdmin.js" ></script>
+</body>
+</html>
