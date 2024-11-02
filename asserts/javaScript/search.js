@@ -356,7 +356,7 @@ loginForm.addEventListener('submit', function (e) {
 
     if (email === savedAdmin[0].email && password === savedAdmin[0].password) {
         alert('Admin Login Successful!');
-        window.location.href = '../../pages/homeAdmin.html'; 
+        window.location.href = '../pages/homeAdmin.html'; 
         return; 
     }
 

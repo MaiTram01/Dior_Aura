@@ -152,7 +152,7 @@ loginForm.addEventListener('submit', function (e) {
     // Kiểm tra thông tin đăng nhập admin
     if (email === savedAdmin[0].email && password === savedAdmin[0].password) {
         alert('Admin Login Successful!'); // Hiển thị thông báo thành công
-        window.location.href = '../../pages/homeAdmin.html'; // Chuyển hướng đến trang admin
+        window.location.href = '../pages/homeAdmin.html'; // Chuyển hướng đến trang admin
         return;
     }
 

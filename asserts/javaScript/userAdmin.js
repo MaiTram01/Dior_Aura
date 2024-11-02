@@ -90,13 +90,13 @@ function closeFormRemove(){
 
 // Các hàm điều hướng trang
 function openProduct(){
-    window.location.href = '../../pages/homeAdmin.html';
+    window.location.href = '../pages/homeAdmin.html';
 }
 function openConfirmation(){
-    window.location.href = '../../pages/orderAdmin.html';
+    window.location.href = '../pages/orderAdmin.html';
 }
 function openChart(){
-    window.location.href = '../../pages/chart.html';
+    window.location.href = '../pages/chart.html';
 }
 // Phan tim kiem
 

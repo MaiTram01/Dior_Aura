@@ -452,13 +452,13 @@ console.log("Product updated:", updatedProducts);
 // var productss = JSON.parse(localStorage.getItem("products"));
 // console.log("Store: ", productss)
 function openUser(){
-window.location.href = '../../pages/userAdmin.html';
+window.location.href = '../pages/userAdmin.html';
 }
 function openConfirmation(){
-window.location.href = '../../pages/orderAdmin.html';
+window.location.href = '../pages/orderAdmin.html';
 }
 function openChart(){
-window.location.href = '../../pages/chart.html';
+window.location.href = '../pages/chart.html';
 }
 // Phan tim kiem
 var product = JSON.parse(localStorage.getItem("cardList"));

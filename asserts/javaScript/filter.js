@@ -34,14 +34,14 @@ function renderProducts(listchose = [], listchose2 = [], searchTerm = '') {
 
         div += `
         <div class='course-item'>
-            <a href="../../pages/detail.html?id=${product.id}"> <!-- Thêm liên kết đến trang chi tiết sản phẩm -->
+            <a href="../pages/detail.html?id=${product.id}"> <!-- Thêm liên kết đến trang chi tiết sản phẩm -->
             <img src='${product.image}' alt='${product.name}'/>
             </a>
             <h3>${product.name}</h3>
             <p>${product.content}</p>
             <h5 class="price">From $:<span class="price-value">${product.price}</span></h5>
             <div class="button-container">
-                <a href="../../pages/detail.html?id=${product.id}" class="more-info">></a>
+                <a href="../pages/detail.html?id=${product.id}" class="more-info">></a>
             </div>
         </div>
         `;

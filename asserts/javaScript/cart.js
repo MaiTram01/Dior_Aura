@@ -78,7 +78,7 @@ document.querySelector('.order-btn').addEventListener('click', function () {
     // Lưu danh sách ID vào localStorage
     localStorage.setItem('cartProductIds', JSON.stringify(cartProductIds));
     // Chuyển hướng tới trang thanh toán
-    window.location.href = '../../pages/pay.html';
+    window.location.href = '../pages/pay.html';
 });
 
 

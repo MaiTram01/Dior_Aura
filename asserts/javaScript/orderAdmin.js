@@ -108,10 +108,10 @@ function openAll(){
 
 }
 function openUser(){
-    window.location.href = '../../pages/userAdmin.html';
+    window.location.href = '../pages/userAdmin.html';
 }
 function openProduct(){
-    window.location.href = '../../pages/homeAdmin.html';
+    window.location.href = '../pages/homeAdmin.html';
 }
 
 function openWaitingConfirm(){
@@ -132,5 +132,5 @@ function openConfirmed(){
     allItems(items);
 }
 function openChart(){
-    window.location.href = '../../pages/chart.html';
+    window.location.href = '../pages/chart.html';
 }

@@ -1,12 +1,12 @@
 
 function openUser() {
-    window.location.href = '../../pages/userAdmin.html';
+    window.location.href = '../pages/userAdmin.html';
 }
 function openConfirmation() {
-    window.location.href = '../../pages/orderAdmin.html';
+    window.location.href = '../pages/orderAdmin.html';
 }
 function openProduct() {
-    window.location.href = '../../pages/homeAdmin.html';
+    window.location.href = '../pages/homeAdmin.html';
 }
 function drawProductChart() {
     const ctx = document.getElementById('productChart').getContext('2d');
