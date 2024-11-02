@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nước Hoa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://www.dior.com/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+    <link rel="stylesheet" href="../asserts/css/perfume.css">
+    <link rel="stylesheet" href="../asserts/css/Login.css">
+    <link rel="stylesheet" href="../asserts/css/cart.css">
+</head>
+
+<body>
+    <div id="layout-pc" onclick="myFunction()" class="kkk">
+        <div class="back-top"><a href="#"></a></div>
+    </div>
+    <!-- html cho phần header chỉnh -->
+    <!-- THANH HEADER PHÍA TRÊN ĐIỀU HƯỚNG -->
+    <header class="header">
+        <nav class="header-left">
+            <li><a href="javascript:void(0)"><i class="fa-solid fa-phone"></i> Customer Service</a></li>
+            <li><a href="javascript:void(0)"><i class="fa-solid fa-location-dot"></i> The Boutiques</a></li>
+        </nav>
+        <nav class="header-right">
+            <div class="input-container">
+                <input type="text" id="header-input" class="header-input" placeholder="Search on dior.com">
+                <ul id="results"></ul> <!-- cái này để hiển thị mấy cái gợi ý  -->
+                <button class="button-search" onclick="search()">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <li>
+                <a href="javascript:void(0)">
+                    <i class="fa-solid fa-bell" onclick="toggleNotification()"></i>
+                </a>
+                <!-- html cho thành thông báo -->
+                <div class="notification-box" id="notificationBox">
+                    <span class="closebtn" onclick="hideNotification()">&times;</span>
+                    <p id="ok">No new notifications.</p>
+                    <!-- Phần tử để hiển thị thông báo -->
+                </div>
+            </li>
+
+            <li>
+                <a href="javascript:void(0)" onclick="handleCart()">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </li>
+            <li><a class="Dangnhap"><i class="fa-solid fa-user-large"></i> Log in</a></li>
+            <li><span style="color: white;" class="Dangnhap">/</span></li>
+            <li><a href="javascript:void(0)" class="Dangxuat">Logout</a></li>
+            <li><a class="Dangnhap">Sign in</a></li>
+        </nav>
+    </header>
+    <div id="success-alert"></div>
+    <!-- html cho phần header dưới -->
+    <header class="head" id="head">
+        <h1>DIOR</h1>
+        <nav>
+            <ul>
+                <li><a href="">FRAGRANCES</a></li>
+                <li><a href="">MAKEUP</a></li>
+                <li><a href="">SKINCARE</a></li>
+                <li><a href="">GIFTS</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">FASHION & ACCESSORIES</a></li>
+            </ul>
+        </nav>
+        <div class="underline"></div>
+    </header>
+
+
+    <!-- html cho đoạn opstion -->
+    <div class="body">
+        <div class="opstion">
+            <div class="firt">
+                <label class="opstion-firt"><input class="session2" type="radio" name="gender"
+                        onclick="showOptions()" />Performe</label>
+
+                <div class="item1" id="options" style="display: block;">
+                    <label><input type="checkbox" onchange="chose()" value="men" class="version">Man</label>
+                    <br>
+                    <label><input type="checkbox" onchange="chose()" value="women" class="version">Women</label>
+                </div>
+            </div>
+            <div class="underline"></div>
+
+            <div class="second">
+                <h2>Category</h2>
+                <div class="category">
+                    <!-- Miss Dior -->
+                    <div class="miss-dior">
+                        <div class="option-second">
+                            <input class="session2" type="radio" name="category" onclick="showOptions1()">Miss Dior
+                        </div>
+                        <div class="item" id="product1" style="display: block;">
+                            <label><input type="checkbox" onchange="chose()" value="Miss Dior Eau de Parfum"
+                                    class="version"> Miss Dior Eau de Parfum</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="Miss Dior Blooming Bouquet"
+                                    class="version"> Miss Dior Blooming Bouquet</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="Miss Dior Rose N'Roses"
+                                    class="version"> Miss Dior Rose N'Roses</label>
+                        </div>
+                    </div>
+
+                    <!-- J'adore -->
+                    <div class="jadore">
+                        <div class="option-second">
+                            <input class="session2" type="radio" name="category" onclick="showOptions2()">J'adore
+                        </div>
+                        <div class="item" id="product2" style="display: block;">
+                            <label><input type="checkbox" onchange="chose()" value="J'adore Eau de Parfum"
+                                    class="version"> J'adore Eau de Parfum</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="J'adore L'Or" class="version">
+                                J'adore L'Or</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="J'adore Infinissime"
+                                    class="version"> J'adore Infinissime</label>
+                        </div>
+                    </div>
+
+                    <!-- Poison -->
+                    <div class="poison">
+                        <div class="option-second">
+                            <input class="session2" type="radio" name="category" onclick="showOptions3()" />Poison
+                        </div>
+                        <div class="item" id="product3" style="display: block;">
+                            <label><input type="checkbox" onchange="chose()" value="Hypnotic Poison" class="version" />
+                                Hypnotic Poison</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="Pure Poison" class="version" /> Pure
+                                Poison</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="Poison Girl" class="version" />
+                                Poison Girl</label>
+                        </div>
+                    </div>
+
+                    <!-- Dior Addict -->
+                    <div class="dior-addict">
+                        <div class="option-second">
+                            <input class="session2" type="radio" name="category" onclick="showOptions4()" />Dior Addict
+                        </div>
+                        <div class="item" id="product4" style="display: block;">
+                            <label><input type="checkbox" onchange="chose()" value="Dior Addict Eau de Parfum"
+                                    class="version" /> Dior Addict Eau de Parfum</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="Dior Addict Eau Fraîche"
+                                    class="version" /> Dior Addict Eau Fraîche</label>
+                        </div>
+                    </div>
+
+                    <!-- Sauvage -->
+                    <div class="sauvage">
+                        <div class="option-second">
+                            <input class="session2" type="radio" name="category" onclick="showOptions5()" />Sauvage
+                        </div>
+                        <div class="item" id="product5" style="display: block;">
+                            <label><input type="checkbox" onchange="chose()" value="Sauvage Eau de Toilette"
+                                    class="version" /> Sauvage Eau de Toilette</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="Sauvage Elixir" class="version" />
+                                Sauvage Elixir</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="Sauvage Parfum" class="version" />
+                                Sauvage Parfum</label>
+                        </div>
+                    </div>
+
+                    <!-- Dior Homme -->
+                    <div class="dior-homme">
+                        <div class="option-second">
+                            <input class="session2" type="radio" name="category" onclick="showOptions6()" />Dior Homme
+                        </div>
+                        <div class="item" id="product6" style="display: block;">
+                            <label><input type="checkbox" onchange="chose()" value="Dior Homme Eau de Toilette"
+                                    class="version" /> Dior Homme Eau de Toilette</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="Dior Homme Cologne"
+                                    class="version" /> Dior Homme Cologne</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="Dior Homme Intense"
+                                    class="version" /> Dior Homme Intense</label>
+                        </div>
+                    </div>
+
+                    <!-- Fahrenheit -->
+                    <div class="fahrenheit">
+                        <div class="option-second">
+                            <input class="session2" type="radio" name="category" onclick="showOptions7()" />Fahrenheit
+                        </div>
+                        <div class="item" id="product7" style="display: block;">
+                            <label><input type="checkbox" onchange="chose()" value="Fahrenheit Eau de Toilette"
+                                    class="version" /> Fahrenheit Eau de Toilette</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="Fahrenheit Le Parfum"
+                                    class="version" /> Fahrenheit Le Parfum</label>
+                        </div>
+                    </div>
+
+                    <h2>Premium Collection</h2>
+                    <!-- Premium Collection -->
+                    <div class="premium-collection">
+                        <div class="option-second">
+                            <input class="session2" type="radio" name="category" onclick="showOptions8()" />Premium
+                            Collection
+                        </div>
+                        <div class="item" id="product8" style="display: block;">
+                            <label><input type="checkbox" onchange="chose()" value="La Collection Privée Christian Dior"
+                                    class="version" /> La Collection Privée Christian Dior</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="Gris Dior" class="version" /> Gris
+                                Dior</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="Ambre Nuit" class="version" /> Ambre
+                                Nuit</label>
+                            <br>
+                            <label><input type="checkbox" onchange="chose()" value="Bois d'Argent" class="version" />
+                                Bois d'Argent</label>
+                        </div>
+                    </div>
+
+                    <div class="underline"></div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="filter">
+                    <h3>Capacity</h3>
+                    <div class="capacity-options">
+                        <label><input class="version" type="checkbox" name="capacity" value="50ml"> 50 ml</label><br>
+                        <label><input class="version" type="checkbox" name="capacity" value="100ml"> 100 ml</label><br>
+                        <label><input class="version" type="checkbox" name="capacity" value="150ml"> 150 ml</label><br>
+                        <label><input class="version" type="checkbox" name="capacity" value="200ml"> 200 ml</label><br>
+                        <label><input class="version" type="checkbox" name="capacity" value="250ml"> 250 ml</label><br>
+                        <label><input class="version" type="checkbox" name="capacity" value="300ml"> 300 ml</label><br>
+                        <label><input class="version" type="checkbox" name="capacity" value="350ml"> 350 ml</label>
+                    </div>
+                    <div class="underline"></div>
+                    <h3>Color</h3>
+                    <div class="color-options">
+                        <label><input class="version" type="checkbox" value="Black">
+                            <div class="black"></div> Black
+                        </label>
+                        <label><input class="version" type="checkbox" value="Bellow">
+                            <div class="yellow"></div> Yellow
+                        </label>
+                        <label><input class="version" type="checkbox" value="Red">
+                            <div class="red"></div> Red
+                        </label>
+                        <label><input class="version" type="checkbox" value="Green">
+                            <div class="green"></div> Green
+                        </label>
+                        <label><input class="version" type="checkbox" value="Blue">
+                            <div class="blue"></div> Blue
+                        </label>
+                        <label><input class="version" type="checkbox" value="Pink">
+                            <div class="pink"></div> Pink
+                        </label>
+                        <label><input class="version" type="checkbox" value="Gray">
+                            <div class="gray"></div> Gray
+                        </label>
+                    </div>
+                    <div class="underline"></div>
+                    <h3>Price</h3>
+                    <input type="range" min="0" max="1000" value="2000" id="priceRange" class="price-slider">
+                    <p>Selected Price: <span id="selectedPrice">2000</span></p>
+                </div>
+
+            </div>
+            <div class="underline"></div>
+        </div>
+
+        <div class="product">
+            <div class="product-Discover" id="product-Discover">
+                <!-- sản phẩm sẽ được thêm vào đây -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Phần FOOTER TRÊN -->
+    <footer class="footer">
+        <div class="Discover footer_h1">
+            <h1>THE E-BOUTIQUE SERVICES</h1>
+        </div>
+        <div class="eboutique-services">
+            <div class="service">
+                <i class="fa-solid fa-truck"></i>
+                <h2>COMPLIMENTARY SHIPPING</h2>
+                <p>Enjoy complimentary Standard shipping for orders $90 or more.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-arrows-spin"></i>
+                <h2>DELIVERY & RETURNS</h2>
+                <p>Standard and Express delivery to Street addresses or PO Boxes. Free 30 day returns.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-gift"></i>
+                <h2>THE ART OF GIFTING</h2>
+                <p>Your order will be presented in an iconic Dior gift box with a personalised message.</p>
+            </div>
+            <div class="service">
+                <i class="fa-brands fa-sketch"></i>
+                <h2>COMPLIMENTARY TRIAL SIZE</h2>
+                <p>Receive a choice of 2 complimentary samples with any order.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- PHẦN FOOTER DƯỚI -->
+    <footer class="footer-end">
+        <div class="eboutique-services-end">
+            <div class="service-end">
+                <h3>NEWSLETTER</h3>
+                <p>Sign up to receive information and news</p>
+                <div class="email-subscribe">
+                    <input type="text" name="search-email" id="search-email" placeholder="*Your email address*">
+                    <button type="submit">OK</button>
+                </div>
+            </div>
+            <div class="service-end">
+                <ul><a href="#">Contact Us</a></ul>
+                <ul><a href="#">Delivery & Returns</a></ul>
+                <ul><a href="#">FAQ</a></ul>
+                <ul><a href="#">Legal Terms & Conditions</a></ul>
+                <ul><a href="#">Privacy & Data Protection</a></ul>
+            </div>
+            <div class="service-end">
+                <h3>FOLLOW US</h3>
+                <div class="footer-end_container">
+                    <div class="item"><a href="https://facebook.com/?locale=vi_VN"><i
+                                class="fa-brands fa-facebook"></i></a></div>
+                    <div class="item"><a href="https://x.com/?lang=vi&mx=2"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="item"><a href="https://www.tiktok.com/vi-VN/"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <div class="item"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <h3>COUNTRY / REGION</h3>
+                <h3 class="country-region"><i class="fa-solid fa-cart-shopping"></i> VietNam</h3>
+            </div>
+        </div>
+    </footer>
+
+    <!-- PHẦN GIỎ HÀNG -->
+    <div id="cartContainer" class="cart-container">
+        <div class="cart-header">
+            <h2>Shopping Cart (<span id="total-items">0</span> products)</h2>
+            <span class="close-btn" onclick="closeCart()">&times;</span>
+        </div>
+
+        <div id="cart-products"></div>
+
+        <div class="cart-footer">
+            <div class="voucher">
+                <label><input type="checkbox" id="select-all"> Select all</label>
+            </div>
+            <div class="total">
+                <span>Total ( <span id="total-products">0</span> products):</span>
+                <span id="total-price">$0.00</span>
+            </div>
+            <button class="order-btn">Order</button>
+        </div>
+    </div>
+
+
+    <!-- PHẦN BACKGROUND CHO GIỎ HÀNG -->
+    <!-- PHẦN HOT SEARCH -->
+    <div class="Search" id="search"
+        style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 200px; z-index: 1001; background-color: white;">
+        <div class="hot-search" id="hot-search">
+            <a href="#"><img src="../asserts/Image/fire - Copy.jpg" alt="Mô tả ảnh" /></a>
+            <a href="#">
+                <h2>Hot search</h2>
+            </a>
+        </div>
+        <div class="category" id="category">
+            <div class="category-P"><a href="./perfume.html">Dior Sauvage</a></div>
+            <div class="category-P"><a href="./makeup.html">Dior Forever Foundation</a></div>
+            <div class="category-P"><a href="./lip.html">Dior Addict Lip Glow</a></div>
+            <div class="category-P"><a href="./perfume.html">Dior's Makeup Line</a></div>
+        </div>
+    </div>
+
+
+
+    <!-- Form đăng nhập/đăng ký -->
+    <div class="inclu-lsandsg">
+        <div class="dior-lg" id="dior-lg">
+            <div class="form-container register-container">
+                <form action="#">
+                    <h1>Sign in</h1>
+                    <input type="text" placeholder="Name" class="input-p" id="nameInput">
+                    <input type="email" placeholder="Email" class="input-p">
+                    <input type="password" placeholder="Password" class="input-p">
+                    <button>Sign in</button>
+                    <span>or use your account</span>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
+                        <a href="#" class="social"><i class="lni lni-google"></i></a>
+                        <a href="#" class="social"><i class="lni lni-linkedin-original"></i></a>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-container login-container">
+                <form action="#">
+                    <h1>Login</h1>
+                    <input type="email" placeholder="Email" class="input-p" id="admin-email">
+                    <input type="password" placeholder="Password" class="input-p" id="admin-password">
+                    <div class="content">
+                        <div class="checkbox">
+                            <input type="checkbox" name="" id="checkbox">
+                            <label>Remember me</label>
+                        </div>
+                        <div class="pass-link">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                    </div>
+                    <button>Login</button>
+                    <span>or use your account</span>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
+                        <a href="#" class="social"><i class="lni lni-google"></i></a>
+                        <a href="#" class="social"><i class="lni lni-linkedin-original"></i></a>
+                    </div>
+                </form>
+            </div>
+
+            <div class="overlay-container1">
+                <div class="overlay2">
+                    <div class="overlay2-panel overlay2-left">
+                        <h1 class="title">Hello<br>friends</h1>
+                        <p>If you already have an account account login here and have fun.</p>
+                        <button class="ghost" id="login">Login
+                            <i class="lni lni-arrow-left login"></i>
+                        </button>
+                    </div>
+                    <div class="overlay2-panel overlay2-right">
+                        <h1 class="title">Start your<br>journey now</h1>
+                        <p>If you don't have an account yet, join us and start your journey.</p>
+                        <button class="ghost" id="register">Sign in
+                            <i class="lni lni-arrow-right register"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <script src="../asserts/javaScript/perfume.js"></script>
+    <script src="../asserts/javaScript/filter.js"></script>
+    <script src="../asserts/javaScript/Login.js"></script>
+    <script src="../asserts/javaScript/cart.js"></script>
+
+</body>
+
+</html>
