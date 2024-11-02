@@ -1,0 +1,2120 @@
+
+{
+    "cardList": [
+                {
+                    "id": 1,
+                    "image": "https://www.dior.com/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dw92f2a3e4/images/beauty/01-FRAGRANCES/2024/MISS-DIOR_2024/PARFUM/LAUNCHPAGE/MD_Parfum_Mood_Pack-ingredient_E-merch_2400x3000.jpg",
+                    "name": "MISS DIOR",
+                    "content": "Eau de parfum - floral and fresh notes",
+                    "price": 125.00,
+                    "gender": "men",
+                    "type": "Miss Dior Eau de Parfum",
+                    "tp": "perfume",
+                    "detail": "Nước hoa Miss Dior Eau de Parfum là sự hòa quyện tinh tế giữa các tầng hương tươi mát và quyến rũ...",
+                    "Capacity": "50ml",
+                    "color": "Pink",
+                    "description": "Unisex Eau de Parfum - Chypre Notes",
+                    "sizeOptions": [
+                        {
+                            "size": "Size S",
+                            "price": "$120.00"
+                        },
+                        {
+                            "size": "Size M",
+                            "price": "$230.00"
+                        },
+                        {
+                            "size": "Size L",
+                            "price": "$480.00"
+                        }
+                    ],
+                    "quantity": 1,
+                    "images": [
+                        {
+                            "src": "../asserts/Image/missdior1.jpg",
+                            "alt": "Product Thumbnail 1"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior2.jpg",
+                            "alt": "Product Thumbnail 2"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior3.jpg",
+                            "alt": "Product Thumbnail 3"
+                        }
+                    ],
+                    "descriptionText": [
+                        "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                        "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+                    ],
+                    "reviews": {
+                        "total_reviews": 100,
+                        "average_rating": 4.7,
+                        "ratings": [
+                            {
+                                "stars": 5,
+                                "percent": "85%",
+                                "count": 1256
+                            },
+                            {
+                                "stars": 4,
+                                "percent": "50%",
+                                "count": 2777
+                            },
+                            {
+                                "stars": 3,
+                                "percent": "25%",
+                                "count": 509
+                            },
+                            {
+                                "stars": 2,
+                                "percent": "20%",
+                                "count": 261
+                            },
+                            {
+                                "stars": 1,
+                                "percent": "10%",
+                                "count": 825
+                            }
+                        ],
+                        "review_details": [
+                            {
+                                "rating": "★★★★☆",
+                                "date": "4 years ago",
+                                "title": "Gris Wrapping Service",
+                                "content": "A sensation of fullness and volume is thus created...",
+                                "brand": "DIOR",
+                                "source": "Originally posted on dior.com"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 2,
+                    "image": "https://www.dior.com/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dw18470f8b/images/beauty/01-FRAGRANCES/2024/MISS-DIOR_2024/PARFUM/LAUNCHPAGE/MD_Parfum_Mood_Detail-Noeud_E-merch_2400x3000.jpg",
+                    "name": "MISS DIOR BLOOMING",
+                    "content": "Eau de toilette",
+                    "price": 164.00,
+                    "gender": "men",
+                    "type": "Miss Dior Blooming Bouquet",
+                    "tp": "perfume",
+                    "detail": "Nước hoa Miss Dior Eau de Parfum là sự hòa quyện tinh tế giữa các tầng hương tươi mát...",
+                    "Capacity": "100ml",
+                    "color": "White",
+                    "description": "Unisex Eau de Parfum - Chypre Notes",
+                    "sizeOptions": [
+                        {
+                            "size": "Size 40mL",
+                            "price": "$700.00"
+                        },
+                        {
+                            "size": "Size 125mL",
+                            "price": "$780.00"
+                        },
+                        {
+                            "size": "Size 250mL",
+                            "price": "$100.00"
+                        }
+                    ],
+                    "quantity": 1,
+                    "images": [
+                        {
+                            "src": "../asserts/Image/missdior4.jpg",
+                            "alt": "Product Thumbnail 1"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior5.jpg",
+                            "alt": "Product Thumbnail 2"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior6.jpg",
+                            "alt": "Product Thumbnail 3"
+                        }
+                    ],
+                    "descriptionText": [
+                        "GRIS DIOR, THE CHYPRE-ROSY SILHOUETTE PLEATED WITH CONTRASTS.",
+                        "Gris Dior eau de parfum is an olfactory enigma that forms an indivisible whole, a reflection of its namesake color."
+                    ],
+                    "reviews": {
+                        "total_reviews": 100,
+                        "average_rating": 4.7,
+                        "ratings": [
+                            {
+                                "stars": 5,
+                                "percent": "85%",
+                                "count": 1256
+                            },
+                            {
+                                "stars": 4,
+                                "percent": "50%",
+                                "count": 2777
+                            },
+                            {
+                                "stars": 3,
+                                "percent": "25%",
+                                "count": 509
+                            },
+                            {
+                                "stars": 2,
+                                "percent": "20%",
+                                "count": 261
+                            },
+                            {
+                                "stars": 1,
+                                "percent": "10%",
+                                "count": 825
+                            }
+                        ],
+                        "review_details": [
+                            {
+                                "rating": "★★★★☆",
+                                "date": "4 years ago",
+                                "title": "Gris Wrapping Service",
+                                "content": "A sensation of fullness and volume is thus created...",
+                                "brand": "DIOR",
+                                "source": "Originally posted on dior.com"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 3,
+                    "image": "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dwee42ad52/Y0996086/Y0996086_E02_GHC.jpg?sw=800",
+                    "name": "MISS DIOR BLOOMING",
+                    "content": "Eau de parfum",
+                    "price": 125.00,
+                    "gender": "men",
+                    "type": "Miss Dior Rose N'Roses",
+                    "tp": "perfume",
+                    "detail": "Nước hoa Miss Dior Eau de Parfum là sự hòa quyện tinh tế giữa các tầng hương tươi mát...",
+                    "Capacity": "300ml",
+                    "color": "Pink",
+                    "description": "Unisex Eau de Parfum - Chypre Notes",
+                    "sizeOptions": [
+                        {
+                            "size": "Size S",
+                            "price": "$120.00"
+                        },
+                        {
+                            "size": "Size M",
+                            "price": "$230.00"
+                        },
+                        {
+                            "size": "Size L",
+                            "price": "$480.00"
+                        }
+                    ],
+                    "quantity": 1,
+                    "images": [
+                        {
+                            "src": "../asserts/Image/missdior7.jpg",
+                            "alt": "Product Thumbnail 1"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior8.jpg",
+                            "alt": "Product Thumbnail 2"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior9.jpg",
+                            "alt": "Product Thumbnail 3"
+                        }
+                    ],
+                    "descriptionText": [
+                        "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                        "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+                    ],
+                    "reviews": {
+                        "total_reviews": 13858,
+                        "average_rating": 4.5,
+                        "ratings": [
+                            {
+                                "stars": 5,
+                                "percent": "85%",
+                                "count": 11256
+                            },
+                            {
+                                "stars": 4,
+                                "percent": "50%",
+                                "count": 1777
+                            },
+                            {
+                                "stars": 3,
+                                "percent": "25%",
+                                "count": 539
+                            },
+                            {
+                                "stars": 2,
+                                "percent": "20%",
+                                "count": 161
+                            },
+                            {
+                                "stars": 1,
+                                "percent": "10%",
+                                "count": 125
+                            }
+                        ],
+                        "review_details": [
+                            {
+                                "rating": "★★★★☆",
+                                "date": "2 years ago",
+                                "title": "Long lasting and Luxurious",
+                                "content": "I was super excited to receive a Dior perfume...",
+                                "brand": "DIOR",
+                                "source": "Originally posted on dior.com"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 4,
+                    "image": "https://shop.dior.co.th/cdn/shop/files/Y0998004_E03_800x.jpg?v=1709256800",
+                    "name": "SAUVAGE",
+                    "content": "Eau de Parfum",
+                    "price": 145.00,
+                    "gender": "men",
+                    "type": "Sauvage Parfum",
+                    "tp": "makeup",
+                    "Capacity": "300ml",
+                    "color": "Blue",
+                    "sizeOptions": [
+                        {
+                            "size": "Size S",
+                            "price": "$120.00"
+                        },
+                        {
+                            "size": "Size M",
+                            "price": "$230.00"
+                        },
+                        {
+                            "size": "Size L",
+                            "price": "$480.00"
+                        }
+                    ],
+                    "quantity": 1,
+                    "images": [
+                        {
+                            "src": "../asserts/Image/sauvage1.jpg",
+                            "alt": "Product Thumbnail 1"
+                        },
+                        {
+                            "src": "../asserts/Image/sauvage2.jpg",
+                            "alt": "Product Thumbnail 2"
+                        },
+                        {
+                            "src": "../asserts/Image/sauvage3.jpg",
+                            "alt": "Product Thumbnail 3"
+                        }
+                    ],
+                    "descriptionText": [
+                        "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                        "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+                    ],
+                    "reviews": {
+                        "total_reviews": 13858,
+                        "average_rating": 4.5,
+                        "ratings": [
+                            {
+                                "stars": 5,
+                                "percent": "85%",
+                                "count": 11256
+                            },
+                            {
+                                "stars": 4,
+                                "percent": "50%",
+                                "count": 1777
+                            },
+                            {
+                                "stars": 3,
+                                "percent": "25%",
+                                "count": 539
+                            },
+                            {
+                                "stars": 2,
+                                "percent": "20%",
+                                "count": 161
+                            },
+                            {
+                                "stars": 1,
+                                "percent": "10%",
+                                "count": 125
+                            }
+                        ],
+                        "review_details": [
+                            {
+                                "rating": "★★★★☆",
+                                "date": "2 years ago",
+                                "title": "Long lasting and Luxurious",
+                                "content": "[This review was collected as part of a promotion.] I was super excited to be receiving a Dior perfume...",
+                                "brand": "DIOR",
+                                "source": "Originally posted on dior.com"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 5,
+                    "image": "https://vn-live-01.slatic.net/p/66b355491f80af8754ea4fff939233b0.jpg",
+                    "name": "SAUVAGE",
+                    "content": "Elixir",
+                    "price": 230.00,
+                    "gender": "men",
+                    "type": "Sauvage Elixir",
+                    "tp": "makeup",
+                    "Capacity": "350ml",
+                    "description": "Unisex Eau de Parfum - Chypre Notes",
+                    "sizeOptions": [
+                        {
+                            "size": "Size S",
+                            "price": "$120.00"
+                        },
+                        {
+                            "size": "Size M",
+                            "price": "$230.00"
+                        },
+                        {
+                            "size": "Size L",
+                            "price": "$480.00"
+                        }
+                    ],
+                    "quantity": 1,
+                    "images": [
+                        {
+                            "src": "../asserts/Image/missdior7.jpg",
+                            "alt": "Product Thumbnail 1"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior8.jpg",
+                            "alt": "Product Thumbnail 2"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior9.jpg",
+                            "alt": "Product Thumbnail 3"
+                        }
+                    ],
+                    "descriptionText": [
+                        "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                        "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+                    ],
+                    "reviews": {
+                        "total_reviews": 13858,
+                        "average_rating": 4.5,
+                        "ratings": [
+                            {
+                                "stars": 5,
+                                "percent": "85%",
+                                "count": 11256
+                            },
+                            {
+                                "stars": 4,
+                                "percent": "50%",
+                                "count": 1777
+                            },
+                            {
+                                "stars": 3,
+                                "percent": "25%",
+                                "count": 539
+                            },
+                            {
+                                "stars": 2,
+                                "percent": "20%",
+                                "count": 161
+                            },
+                            {
+                                "stars": 1,
+                                "percent": "10%",
+                                "count": 125
+                            }
+                        ],
+                        "review_details": [
+                            {
+                                "rating": "★★★★☆",
+                                "date": "2 years ago",
+                                "title": "Long lasting and Luxurious",
+                                "content": "I was super excited to receive a Dior perfume...",
+                                "brand": "DIOR",
+                                "source": "Originally posted on dior.com"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 6,
+                    "image": "https://cdn.salla.sa/zDbzp/c99ab153-2c19-49e3-98c6-0652c14e1199-1000x1000-uR20a7ehqoAgJwzTQqpU1ZXpLP6tULqVpTRke5l1.jpg",
+                    "name": "SAUVAGE",
+                    "content": "Eau de toilette",
+                    "price": 107.00,
+                    "gender": "men",
+                    "type": "Sauvage Eau de Toilette",
+                    "tp": "makeup",
+                    "Capacity": "250ml",
+                    "color": "Silver",
+                    "description": "Unisex Eau de Parfum - Chypre Notes",
+                    "sizeOptions": [
+                        {
+                            "size": "Size S",
+                            "price": "$120.00"
+                        },
+                        {
+                            "size": "Size M",
+                            "price": "$230.00"
+                        },
+                        {
+                            "size": "Size L",
+                            "price": "$480.00"
+                        }
+                    ],
+                    "quantity": 1,
+                    "images": [
+                        {
+                            "src": "../asserts/Image/missdior7.jpg",
+                            "alt": "Product Thumbnail 1"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior8.jpg",
+                            "alt": "Product Thumbnail 2"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior9.jpg",
+                            "alt": "Product Thumbnail 3"
+                        }
+                    ],
+                    "descriptionText": [
+                        "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                        "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+                    ],
+                    "reviews": {
+                        "total_reviews": 13858,
+                        "average_rating": 4.5,
+                        "ratings": [
+                            {
+                                "stars": 5,
+                                "percent": "85%",
+                                "count": 11256
+                            },
+                            {
+                                "stars": 4,
+                                "percent": "50%",
+                                "count": 1777
+                            },
+                            {
+                                "stars": 3,
+                                "percent": "25%",
+                                "count": 539
+                            },
+                            {
+                                "stars": 2,
+                                "percent": "20%",
+                                "count": 161
+                            },
+                            {
+                                "stars": 1,
+                                "percent": "10%",
+                                "count": 125
+                            }
+                        ],
+                        "review_details": [
+                            {
+                                "rating": "★★★★☆",
+                                "date": "2 years ago",
+                                "title": "Long lasting and Luxurious",
+                                "content": "I was super excited to receive a Dior perfume...",
+                                "brand": "DIOR",
+                                "source": "Originally posted on dior.com"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 7,
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VCx1FVbYwHWaQMcgMZIcJ0s7VkvUy-Rldw&s",
+                    "name": "ROUGE DIOR FOREVER LIPSTICK",
+                    "content": "Transfer-proof lipstick pigmented matte-bare-lip feel comfort",
+                    "price": 66.00,
+                    "gender": "women",
+                    "type": "J'adore Eau de Parfum",
+                    "tp": "makeup",
+                    "Capacity": "100ml",
+                    "color": "Red",
+                    "description": "Unisex Eau de Parfum - Chypre Notes",
+                    "sizeOptions": [
+                        {
+                            "size": "Size S",
+                            "price": "$120.00"
+                        },
+                        {
+                            "size": "Size M",
+                            "price": "$230.00"
+                        },
+                        {
+                            "size": "Size L",
+                            "price": "$480.00"
+                        }
+                    ],
+                    "quantity": 1,
+                    "images": [
+                        {
+                            "src": "../asserts/Image/missdior7.jpg",
+                            "alt": "Product Thumbnail 1"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior8.jpg",
+                            "alt": "Product Thumbnail 2"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior9.jpg",
+                            "alt": "Product Thumbnail 3"
+                        }
+                    ],
+                    "descriptionText": [
+                        "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                        "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+                    ],
+                    "reviews": {
+                        "total_reviews": 13858,
+                        "average_rating": 4.5,
+                        "ratings": [
+                            {
+                                "stars": 5,
+                                "percent": "85%",
+                                "count": 11256
+                            },
+                            {
+                                "stars": 4,
+                                "percent": "50%",
+                                "count": 1777
+                            },
+                            {
+                                "stars": 3,
+                                "percent": "25%",
+                                "count": 539
+                            },
+                            {
+                                "stars": 2,
+                                "percent": "20%",
+                                "count": 161
+                            },
+                            {
+                                "stars": 1,
+                                "percent": "10%",
+                                "count": 125
+                            }
+                        ],
+                        "review_details": [
+                            {
+                                "rating": "★★★★☆",
+                                "date": "2 years ago",
+                                "title": "Long lasting and Luxurious",
+                                "content": "I was super excited to receive a Dior perfume...",
+                                "brand": "DIOR",
+                                "source": "Originally posted on dior.com"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 8,
+                    "image": "https://lamoon.vn/wp-content/uploads/2020/05/Untitled-design-23.png",
+                    "name": "ROUGE DIOR FOREVER LIQUID",
+                    "content": "Transfer-proof liquid lipstick - ultra-pigmented matte- weightless comfort",
+                    "price": 64.00,
+                    "gender": "women",
+                    "type": "J'adore Infinissime",
+                    "tp": "skincare",
+                    "Capacity": "200ml",
+                    "color": "Pink",
+                    "description": "Unisex Eau de Parfum - Chypre Notes",
+                    "sizeOptions": [
+                        {
+                            "size": "Size S",
+                            "price": "$120.00"
+                        },
+                        {
+                            "size": "Size M",
+                            "price": "$230.00"
+                        },
+                        {
+                            "size": "Size L",
+                            "price": "$480.00"
+                        }
+                    ],
+                    "quantity": 1,
+                    "images": [
+                        {
+                            "src": "../asserts/Image/missdior7.jpg",
+                            "alt": "Product Thumbnail 1"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior8.jpg",
+                            "alt": "Product Thumbnail 2"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior9.jpg",
+                            "alt": "Product Thumbnail 3"
+                        }
+                    ],
+                    "descriptionText": [
+                        "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                        "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+                    ],
+                    "reviews": {
+                        "total_reviews": 13858,
+                        "average_rating": 4.5,
+                        "ratings": [
+                            {
+                                "stars": 5,
+                                "percent": "85%",
+                                "count": 11256
+                            },
+                            {
+                                "stars": 4,
+                                "percent": "50%",
+                                "count": 1777
+                            },
+                            {
+                                "stars": 3,
+                                "percent": "25%",
+                                "count": 539
+                            },
+                            {
+                                "stars": 2,
+                                "percent": "20%",
+                                "count": 161
+                            },
+                            {
+                                "stars": 1,
+                                "percent": "10%",
+                                "count": 125
+                            }
+                        ],
+                        "review_details": [
+                            {
+                                "rating": "★★★★☆",
+                                "date": "2 years ago",
+                                "title": "Long lasting and Luxurious",
+                                "content": "I was super excited to receive a Dior perfume...",
+                                "brand": "DIOR",
+                                "source": "Originally posted on dior.com"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 9,
+                    "image": "https://nuochoa95.com/Data/images/san%20pham/Christian%20Dior/dior-homme-sport-2021-1.jpg",
+                    "name": "DIOR FOREVER SKIN GLOW",
+                    "content": "Clean Radiant Foundation - 24 Wear and Hydration",
+                    "price": 99.00,
+                    "gender": "women",
+                    "type": "J'adore L'Or",
+                    "tp": "skincare",
+                    "Capacity": "150ml",
+                    "color": "Beige",
+                    "description": "Unisex Eau de Parfum - Chypre Notes",
+                    "sizeOptions": [
+                        {
+                            "size": "Size S",
+                            "price": "$120.00"
+                        },
+                        {
+                            "size": "Size M",
+                            "price": "$230.00"
+                        },
+                        {
+                            "size": "Size L",
+                            "price": "$480.00"
+                        }
+                    ],
+                    "quantity": 1,
+                    "images": [
+                        {
+                            "src": "../asserts/Image/missdior7.jpg",
+                            "alt": "Product Thumbnail 1"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior8.jpg",
+                            "alt": "Product Thumbnail 2"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior9.jpg",
+                            "alt": "Product Thumbnail 3"
+                        }
+                    ],
+                    "descriptionText": [
+                        "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                        "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+                    ],
+                    "reviews": {
+                        "total_reviews": 13858,
+                        "average_rating": 4.5,
+                        "ratings": [
+                            {
+                                "stars": 5,
+                                "percent": "85%",
+                                "count": 11256
+                            },
+                            {
+                                "stars": 4,
+                                "percent": "50%",
+                                "count": 1777
+                            },
+                            {
+                                "stars": 3,
+                                "percent": "25%",
+                                "count": 539
+                            },
+                            {
+                                "stars": 2,
+                                "percent": "20%",
+                                "count": 161
+                            },
+                            {
+                                "stars": 1,
+                                "percent": "10%",
+                                "count": 125
+                            }
+                        ],
+                        "review_details": [
+                            {
+                                "rating": "★★★★☆",
+                                "date": "2 years ago",
+                                "title": "Long lasting and Luxurious",
+                                "content": "I was super excited to receive a Dior perfume...",
+                                "brand": "DIOR",
+                                "source": "Originally posted on dior.com"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 10,
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShCBawJo2XRYeftzS7U64kkOmjd_ohTnAm1Q&s",
+                    "name": "DIOR PRESTIGE LE BAUME DE MINUIT",
+                    "content": "Intensive Revitalizing Night Cream",
+                    "price": 895.00,
+                    "gender": "women",
+                    "type": "Poison Girl",
+                    "tp": "skincare",
+                    "Capacity": "350ml",
+                    "color": "Gold",
+                    "kieu": "miss",
+                    "description": "Unisex Eau de Parfum - Chypre Notes",
+                    "sizeOptions": [
+                        {
+                            "size": "Size S",
+                            "price": "$120.00"
+                        },
+                        {
+                            "size": "Size M",
+                            "price": "$230.00"
+                        },
+                        {
+                            "size": "Size L",
+                            "price": "$480.00"
+                        }
+                    ],
+                    "quantity": 1,
+                    "images": [
+                        {
+                            "src": "../asserts/Image/missdior7.jpg",
+                            "alt": "Product Thumbnail 1"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior8.jpg",
+                            "alt": "Product Thumbnail 2"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior9.jpg",
+                            "alt": "Product Thumbnail 3"
+                        }
+                    ],
+                    "descriptionText": [
+                        "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                        "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+                    ],
+                    "reviews": {
+                        "total_reviews": 13858,
+                        "average_rating": 4.5,
+                        "ratings": [
+                            {
+                                "stars": 5,
+                                "percent": "85%",
+                                "count": 11256
+                            },
+                            {
+                                "stars": 4,
+                                "percent": "50%",
+                                "count": 1777
+                            },
+                            {
+                                "stars": 3,
+                                "percent": "25%",
+                                "count": 539
+                            },
+                            {
+                                "stars": 2,
+                                "percent": "20%",
+                                "count": 161
+                            },
+                            {
+                                "stars": 1,
+                                "percent": "10%",
+                                "count": 125
+                            }
+                        ],
+                        "review_details": [
+                            {
+                                "rating": "★★★★☆",
+                                "date": "2 years ago",
+                                "title": "Long lasting and Luxurious",
+                                "content": "I was super excited to receive a Dior perfume...",
+                                "brand": "DIOR",
+                                "source": "Originally posted on dior.com"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 11,
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ3bOKL4qKiYaOMj3tQPfKwcKOSJZvlMthXg&s",
+                    "name": "DIOR PRESTIGE",
+                    "content": "La Micro-Huile de Rose Advanced Serum",
+                    "price": 238.00,
+                    "gender": "women",
+                    "type": "Dior Addict Eau Fraîche",
+                    "tp": "skincare",
+                    "Capacity": "50ml",
+                    "color": "Pink",
+                    "description": "Unisex Eau de Parfum - Chypre Notes",
+                    "sizeOptions": [
+                        {
+                            "size": "Size S",
+                            "price": "$120.00"
+                        },
+                        {
+                            "size": "Size M",
+                            "price": "$230.00"
+                        },
+                        {
+                            "size": "Size L",
+                            "price": "$480.00"
+                        }
+                    ],
+                    "quantity": 1,
+                    "images": [
+                        {
+                            "src": "../asserts/Image/missdior7.jpg",
+                            "alt": "Product Thumbnail 1"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior8.jpg",
+                            "alt": "Product Thumbnail 2"
+                        },
+                        {
+                            "src": "../asserts/Image/missdior9.jpg",
+                            "alt": "Product Thumbnail 3"
+                        }
+                    ],
+                    "descriptionText": [
+                        "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                        "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+                    ],
+                    "reviews": {
+                        "total_reviews": 13858,
+                        "average_rating": 4.5,
+                        "ratings": [
+                            {
+                                "stars": 5,
+                                "percent": "85%",
+                                "count": 11256
+                            },
+                            {
+                                "stars": 4,
+                                "percent": "50%",
+                                "count": 1777
+                            },
+                            {
+                                "stars": 3,
+                                "percent": "25%",
+                                "count": 539
+                            },
+                            {
+                                "stars": 2,
+                                "percent": "20%",
+                                "count": 161
+                            },
+                            {
+                                "stars": 1,
+                                "percent": "10%",
+                                "count": 125
+                            }
+                        ],
+                        "review_details": [
+                            {
+                                "rating": "★★★★☆",
+                                "date": "2 years ago",
+                                "title": "Long lasting and Luxurious",
+                                "content": "I was super excited to receive a Dior perfume...",
+                                "brand": "DIOR",
+                                "source": "Originally posted on dior.com"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 12,
+                    "image": "https://file.hstatic.net/1000296801/file/nuoc-hoa-nu-dior-j_adore-eau-de-parfum_de58680d2b6e40e0a823dc680a5441cd_1024x1024.jpg",
+                    "name": "DIOR PRESTIGE LA CRÈME",
+                    "content": "Anti-Aging Intensive Repairing Cream",
+                    "price": 569.00,
+                    "gender": "women",
+                    "type": "Dior Homme",
+                    "tp": "clothing",
+                    "Capacity": "100ml",
+                    "color": "White",
+                    "quantity": 1
+                },
+                {
+                    "id": 13,
+                    "image": "https://www.myperfumeshop.com.au/cdn/shop/products/christian-dior-gris-dior-edp-perfume-cologne-255702.jpg?v=1702710842&width=1817",
+                    "name": "GRIS DIOR",
+                    "content": "Unisex eau de parfum - chypre notes",
+                    "price": 235.00,
+                    "gender": "women",
+                    "type": "Gris Dior",
+                    "tp": "clothing",
+                    "Capacity": "200ml",
+                    "color": "Gray",
+                    "quantity": 1
+                },
+                {
+                    "id": 14,
+                    "image": "https://perfumeoasis.me/media/catalog/product/cache/c1a1809a7d1fda2ff7db8c46e0a15096/3/3/3348901516518.jpg",
+                    "name": "DIORIVIER",
+                    "content": "Eau de Parfum - Fig and Rose Notes",
+                    "price": 235.00,
+                    "gender": "women",
+                    "tp": "clothing",
+                    "type": "Bois d'Argent",
+                    "Capacity": "100ml",
+                    "color": "Green",
+                    "quantity": 1
+                },
+                {
+                    "id": 15,
+                    "image": "https://clmensstore.com/wp-content/uploads/2022/08/3348901629874_3.webp",
+                    "name": "Dior Sauvage",
+                    "content": "Eau de Toilette",
+                    "price": 230.00,
+                    "gender": "men",
+                    "type": "Dior Homme Sport",
+                    "tp": "clothing",
+                    "Capacity": "300ml",
+                    "color": "Blue",
+                    "quantity": 1
+                },
+                {
+                    "id": 16,
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZu4Xtq_tUAIbSvg3588b_KTTWQ2kuMDBBdA&s",
+                    "name": "MISS DIOR BLOOMING BOUQUET",
+                    "content": "Collector's Bottle",
+                    "price": 140.00,
+                    "gender": "women",
+                    "type": "audi",
+                    "tp": "clothing",
+                    "Capacity": "200ml",
+                    "color": "Blue",
+                    "quantity": 1
+                },
+                {
+                    "id": 17,
+                    "image": "https://nuochoadior.com/wp-content/uploads/2020/08/Nuoc-hoa-dior-30ml-1.png",
+                    "name": "LES ADORABLES SET",
+                    "content": "Shimmering Scurb, Body Cream and Shimmering Gel",
+                    "price": 437.00,
+                    "gender": "women",
+                    "type": "audi",
+                    "tp": "clothing",
+                    "Capacity": "300ml",
+                    "color": "black",
+                    "quantity": 1
+                },
+                {
+                    "id": 18,
+                    "image": "https://tiemnuochoa.vn/wp-content/uploads/2023/09/Nuoc-Hoa-Dior-JAdore-EDP-hang-authentic.jpg",
+                    "name": "DIOR LIP GLOW",
+                    "content": "Color Awakening Lip Balm",
+                    "price": 38.00,
+                    "gender": "women",
+                    "type": "audi",
+                    "tp": "clothing",
+                    "Capacity": "250ml",
+                    "color": "black",
+                    "quantity": 1
+                },
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "id": 19,
+            "image": "https://cdn.vuahanghieu.com/unsafe/0x900/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2024/03/combo-phan-ma-dior-rosy-glow-blush-va-son-duong-addict-lip-maximizer-mau-012-rosewood-65e9232ac8270-07032024091506.jpg",
+            "name": "MISS DIOR",
+            "content": "Eau de parfum - floral and fresh notes",
+            "price": 125.00,
+            "gender": "men",
+            "type": "Miss Dior Eau de Parfum",
+            "tp": "clothing",
+            "detail": "Nước hoa Miss Dior Eau de Parfum là sự hòa quyện tinh tế giữa các tầng hương tươi mát và quyến rũ...",
+            "Capacity": "50ml",
+            "color": "Pink",
+            "description": "Unisex Eau de Parfum - Chypre Notes",
+            "sizeOptions": [
+                {
+                    "size": "Size S",
+                    "price": "$120.00"
+                },
+                {
+                    "size": "Size M",
+                    "price": "$230.00"
+                },
+                {
+                    "size": "Size L",
+                    "price": "$480.00"
+                }
+            ],
+            "quantity": 2,
+            "images": [
+                {
+                    "src": "../asserts/Image/missdior1.jpg",
+                    "alt": "Product Thumbnail 1"
+                },
+                {
+                    "src": "../asserts/Image/missdior2.jpg",
+                    "alt": "Product Thumbnail 2"
+                },
+                {
+                    "src": "../asserts/Image/missdior3.jpg",
+                    "alt": "Product Thumbnail 3"
+                }
+            ],
+            "descriptionText": [
+                "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+            ],
+            "reviews": {
+                "total_reviews": 100,
+                "average_rating": 4.7,
+                "ratings": [
+                    {
+                        "stars": 5,
+                        "percent": "85%",
+                        "count": 1256
+                    },
+                    {
+                        "stars": 4,
+                        "percent": "50%",
+                        "count": 2777
+                    },
+                    {
+                        "stars": 3,
+                        "percent": "25%",
+                        "count": 509
+                    },
+                    {
+                        "stars": 2,
+                        "percent": "20%",
+                        "count": 261
+                    },
+                    {
+                        "stars": 1,
+                        "percent": "10%",
+                        "count": 825
+                    }
+                ],
+                "review_details": [
+                    {
+                        "rating": "★★★★☆",
+                        "date": "4 years ago",
+                        "title": "Gris Wrapping Service",
+                        "content": "A sensation of fullness and volume is thus created...",
+                        "brand": "DIOR",
+                        "source": "Originally posted on dior.com"
+                    }
+                ]
+            }
+        },
+
+        {
+            "id": 20,
+            "image": "https://tiki.vn/blog/wp-content/uploads/2023/01/son-duong-dior-7.jpg",
+            "name": "MISS DIOR BLOOMING BOUQUET",
+            "content": "Eau de toilette",
+            "price": 164.00,
+            "gender": "men",
+            "type": "Miss Dior Blooming Bouquet",
+            "tp": "clothing",
+            "detail": "Nước hoa Miss Dior Eau de Parfum là sự hòa quyện tinh tế giữa các tầng hương tươi mát...",
+            "Capacity": "100ml",
+            "color": "White",
+"description": "Unisex Eau de Parfum - Chypre Notes",
+"sizeOptions": [
+    {
+        "size": "Size 40mL",
+        "price": "$700.00"
+    },
+    {
+        "size": "Size 125mL",
+        "price": "$780.00"
+    },
+    {
+        "size": "Size 250mL",
+        "price": "$100.00"
+    }
+],
+"quantity": 2,
+"images": [
+    {
+        "src": "../asserts/Image/missdior4.jpg",
+        "alt": "Product Thumbnail 1"
+    },
+    {
+        "src": "../asserts/Image/missdior5.jpg",
+        "alt": "Product Thumbnail 2"
+    },
+    {
+        "src": "../asserts/Image/missdior6.jpg",
+        "alt": "Product Thumbnail 3"
+    }
+],
+"descriptionText": [
+    "GRIS DIOR, THE CHYPRE-ROSY SILHOUETTE PLEATED WITH CONTRASTS.",
+    "Gris Dior eau de parfum is an olfactory enigma that forms an indivisible whole, a reflection of its namesake color."
+],
+"reviews": {
+    "total_reviews": 100,
+    "average_rating": 4.7,
+    "ratings": [
+        {
+            "stars": 5,
+            "percent": "85%",
+            "count": 1256
+        },
+        {
+            "stars": 4,
+            "percent": "50%",
+            "count": 2777
+        },
+        {
+            "stars": 3,
+            "percent": "25%",
+            "count": 509
+        },
+        {
+            "stars": 2,
+            "percent": "20%",
+            "count": 261
+        },
+        {
+            "stars": 1,
+            "percent": "10%",
+            "count": 825
+        }
+    ],
+    "review_details": [
+        {
+            "rating": "★★★★☆",
+            "date": "4 years ago",
+            "title": "Gris Wrapping Service",
+            "content": "A sensation of fullness and volume is thus created...",
+            "brand": "DIOR",
+            "source": "Originally posted on dior.com"
+        }
+    ]
+}
+},
+        {
+            "id": 21,
+            "image": "https://vilip.vn/wp-content/uploads/2023/06/Son-duong-Dior-1947-30.jpg",
+            "name": "MISS DIOR BLOOMING",
+            "content": "Eau de parfum",
+            "price": 125.00,
+            "gender": "men",
+            "type": "Miss Dior Rose N'Roses",
+            "tp": "clothing",
+            "detail": "Nước hoa Miss Dior Eau de Parfum là sự hòa quyện tinh tế giữa các tầng hương tươi mát...",
+            "Capacity": "300ml",
+            "color": "Pink",
+            "description": "Unisex Eau de Parfum - Chypre Notes",
+        
+            "sizeOptions": [
+                {
+                    "size": "Size S",
+                    "price": "$120.00"
+                },
+                {
+                    "size": "Size M",
+                    "price": "$230.00"
+                },
+                {
+                    "size": "Size L",
+                    "price": "$480.00"
+                }
+            ],
+            "quantity": 2,
+            "images": [
+                {
+                    "src": "../asserts/Image/missdior7.jpg",
+                    "alt": "Product Thumbnail 1"
+                },
+                {
+                    "src": "../asserts/Image/missdior8.jpg",
+                    "alt": "Product Thumbnail 2"
+                },
+                {
+                    "src": "../asserts/Image/missdior9.jpg",
+                    "alt": "Product Thumbnail 3"
+                }
+            ],
+            "descriptionText": [
+                "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+            ],
+            "reviews": {
+                "total_reviews": 13858,
+                "average_rating": 4.5,
+                "ratings": [
+                    {
+                        "stars": 5,
+                        "percent": "85%",
+                        "count": 11256
+                    },
+                    {
+                        "stars": 4,
+                        "percent": "50%",
+                        "count": 1777
+                    },
+                    {
+                        "stars": 3,
+                        "percent": "25%",
+                        "count": 539
+                    },
+                    {
+                        "stars": 2,
+                        "percent": "20%",
+                        "count": 161
+                    },
+                    {
+                        "stars": 1,
+                        "percent": "10%",
+                        "count": 125
+                    }
+                ],
+                "review_details": [
+                    {
+                        "rating": "★★★★☆",
+                        "date": "2 years ago",
+                        "title": "Long lasting and Luxurious",
+                        "content": "I was super excited to receive a Dior perfume...",
+                        "brand": "DIOR",
+                        "source": "Originally posted on dior.com"
+                    }
+                ]
+            }
+        },
+    
+        {
+            "id": 22,
+            "image": "https://lipstick.vn/wp-content/uploads/2024/01/son-dior-500.jpg",
+            "name": "SAUVAGE",
+            "content": "Eau de Parfum",
+            "price": 145.00,
+            "gender": "men",
+            "type": "Sauvage Parfum",
+            "tp": "accessories",
+            "Capacity": "300ml",
+            "color": "Blue",
+            "sizeOptions": [
+                {
+                    "size": "Size S",
+                    "price": "$120.00"
+                },
+                {
+                    "size": "Size M",
+                    "price": "$230.00"
+                },
+                {
+                    "size": "Size L",
+                    "price": "$480.00"
+                }
+            ],
+            "quantity": 2,
+            "images": [
+                {
+                    "src": "../asserts/Image/sauvage1.jpg",
+                    "alt": "Product Thumbnail 1"
+                },
+                {
+                    "src": "../asserts/Image/sauvage2.jpg",
+                    "alt": "Product Thumbnail 2"
+                },
+                {
+                    "src": "../asserts/Image/sauvage3.jpg",
+                    "alt": "Product Thumbnail 3"
+                }
+            ],
+            "descriptionText": [
+                "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+            ],
+            "reviews": {
+                "total_reviews": 13858,
+                "average_rating": 4.5,
+                "ratings": [
+                    {
+                        "stars": 5,
+                        "percent": "85%",
+                        "count": 11256
+                    },
+                    {
+                        "stars": 4,
+                        "percent": "50%",
+                        "count": 1777
+                    },
+                    {
+                        "stars": 3,
+                        "percent": "25%",
+                        "count": 539
+                    },
+                    {
+                        "stars": 2,
+                        "percent": "20%",
+                        "count": 161
+                    },
+                    {
+                        "stars": 1,
+                        "percent": "10%",
+                        "count": 125
+                    }
+                ],
+                "review_details": [
+                    {
+                        "rating": "★★★★☆",
+                        "date": "2 years ago",
+                        "title": "Long lasting and Luxurious",
+                        "content": "[This review was collected as part of a promotion.] I was super excited to be receiving a Dior perfume...",
+                        "brand": "DIOR",
+                        "source": "Originally posted on dior.com"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 23,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLu9ZV8fvvLc9bz6A_QXoCq-ZHwjVvWYa-dUFwI50buqbjujlcsYnlTnp5brYB9EY8aQ8&usqp=CAU",
+            "name": "SAUVAGE",
+            "content": "Elixir",
+            "price": 230.00,
+            "gender": "men",
+            "type": "Sauvage Elixir",
+            "tp": "accessories",
+            "Capacity": "350ml",
+            "description": "Unisex Eau de Parfum - Chypre Notes",
+            "sizeOptions": [
+                {
+                    "size": "Size S",
+                    "price": "$120.00"
+                },
+                {
+                    "size": "Size M",
+                    "price": "$230.00"
+                },
+                {
+                    "size": "Size L",
+                    "price": "$480.00"
+                }
+            ],
+            "quantity": 2,
+            "images": [
+                {
+                    "src": "../asserts/Image/missdior7.jpg",
+                    "alt": "Product Thumbnail 1"
+                },
+                {
+                    "src": "../asserts/Image/missdior8.jpg",
+                    "alt": "Product Thumbnail 2"
+                },
+                {
+                    "src": "../asserts/Image/missdior9.jpg",
+                    "alt": "Product Thumbnail 3"
+                }
+            ],
+            "descriptionText": [
+                "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+            ],
+            "reviews": {
+                "total_reviews": 13858,
+                "average_rating": 4.5,
+                "ratings": [
+                    {
+                        "stars": 5,
+                        "percent": "85%",
+                        "count": 11256
+                    },
+                    {
+                        "stars": 4,
+                        "percent": "50%",
+                        "count": 1777
+                    },
+                    {
+                        "stars": 3,
+                        "percent": "25%",
+                        "count": 539
+                    },
+                    {
+                        "stars": 2,
+                        "percent": "20%",
+                        "count": 161
+                    },
+                    {
+                        "stars": 1,
+                        "percent": "10%",
+                        "count": 125
+                    }
+                ],
+                "review_details": [
+                    {
+                        "rating": "★★★★☆",
+                        "date": "2 years ago",
+                        "title": "Long lasting and Luxurious",
+                        "content": "I was super excited to receive a Dior perfume...",
+                        "brand": "DIOR",
+                        "source": "Originally posted on dior.com"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 24,
+            "image": "https://kyo.vn/wp-content/uploads/2024/04/Son-Dior-Rouge-Dior-Satin-Lipstick-419-Bois-Rose--300x300.png",
+            "name": "SAUVAGE",
+            "content": "Eau de toilette",
+            "price": 107.00,
+            "gender": "men",
+            "type": "Sauvage Eau de Toilette",
+            "tp": "accessories",
+            "Capacity": "250ml",
+            "color": "Silver",
+            "description": "Unisex Eau de Parfum - Chypre Notes",
+            "sizeOptions": [
+                {
+                    "size": "Size S",
+                    "price": "$120.00"
+                },
+                {
+                    "size": "Size M",
+                    "price": "$230.00"
+                },
+                {
+                    "size": "Size L",
+                    "price": "$480.00"
+                }
+            ],
+            "quantity": 2,
+            "images": [
+                {
+                    "src": "../asserts/Image/missdior7.jpg",
+                    "alt": "Product Thumbnail 1"
+                },
+                {
+                    "src": "../asserts/Image/missdior8.jpg",
+                    "alt": "Product Thumbnail 2"
+                },
+                {
+                    "src": "../asserts/Image/missdior9.jpg",
+                    "alt": "Product Thumbnail 3"
+                }
+            ],
+            "descriptionText": [
+                "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+            ],
+            "reviews": {
+                "total_reviews": 13858,
+                "average_rating": 4.5,
+                "ratings": [
+                    {
+                        "stars": 5,
+                        "percent": "85%",
+                        "count": 11256
+                    },
+                    {
+                        "stars": 4,
+                        "percent": "50%",
+                        "count": 1777
+                    },
+                    {
+                        "stars": 3,
+                        "percent": "25%",
+                        "count": 539
+                    },
+                    {
+                        "stars": 2,
+                        "percent": "20%",
+                        "count": 161
+                    },
+                    {
+                        "stars": 1,
+                        "percent": "10%",
+                        "count": 125
+                    }
+                ],
+                "review_details": [
+                    {
+                        "rating": "★★★★☆",
+                        "date": "2 years ago",
+                        "title": "Long lasting and Luxurious",
+                        "content": "I was super excited to receive a Dior perfume...",
+                        "brand": "DIOR",
+                        "source": "Originally posted on dior.com"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 25,
+            "image": "https://vilip.vn/wp-content/uploads/2023/06/Son-Duong-Dior-Addict-Lip-Glow-1947-Miss-Dior-Mau-Hong-Phan-6.jpg",
+            "name": "ROUGE DIOR FOREVER LIPSTICK",
+            "content": "Transfer-proof lipstick pigmented matte-bare-lip feel comfort",
+            "price": 66.00,
+            "gender": "women",
+            "type": "J'adore Eau de Parfum",
+            "tp": "accessories",
+            "Capacity": "100ml",
+            "color": "Red",
+            "description": "Unisex Eau de Parfum - Chypre Notes",
+            "sizeOptions": [
+                {
+                    "size": "Size S",
+                    "price": "$120.00"
+                },
+                {
+                    "size": "Size M",
+                    "price": "$230.00"
+                },
+                {
+                    "size": "Size L",
+                    "price": "$480.00"
+                }
+            ],
+            "quantity": 2,
+            "images": [
+                {
+                    "src": "../asserts/Image/missdior7.jpg",
+                    "alt": "Product Thumbnail 1"
+                },
+                {
+                    "src": "../asserts/Image/missdior8.jpg",
+                    "alt": "Product Thumbnail 2"
+                },
+                {
+                    "src": "../asserts/Image/missdior9.jpg",
+                    "alt": "Product Thumbnail 3"
+                }
+            ],
+            "descriptionText": [
+                "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+            ],
+            "reviews": {
+                "total_reviews": 13858,
+                "average_rating": 4.5,
+                "ratings": [
+                    {
+                        "stars": 5,
+                        "percent": "85%",
+                        "count": 11256
+                    },
+                    {
+                        "stars": 4,
+                        "percent": "50%",
+                        "count": 1777
+                    },
+                    {
+                        "stars": 3,
+                        "percent": "25%",
+                        "count": 539
+                    },
+                    {
+                        "stars": 2,
+                        "percent": "20%",
+                        "count": 161
+                    },
+                    {
+                        "stars": 1,
+                        "percent": "10%",
+                        "count": 125
+                    }
+                ],
+                "review_details": [
+                    {
+                        "rating": "★★★★☆",
+                        "date": "2 years ago",
+                        "title": "Long lasting and Luxurious",
+                        "content": "I was super excited to receive a Dior perfume...",
+                        "brand": "DIOR",
+                        "source": "Originally posted on dior.com"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 26,
+            "image": "https://lipstick.vn/wp-content/uploads/2023/10/son-dior-8-mau-do-gach.jpg",
+            "name": "ROUGE DIOR FOREVER LIQUID",
+            "content": "Transfer-proof liquid lipstick - ultra-pigmented matte- weightless comfort",
+            "price": 64.00,
+            "gender": "women",
+            "type": "J'adore Infinissime",
+            "tp": "accessories",
+            "Capacity": "200ml",
+            "color": "Pink",
+            "description": "Unisex Eau de Parfum - Chypre Notes",
+            "sizeOptions": [
+                {
+                    "size": "Size S",
+                    "price": "$120.00"
+                },
+                {
+                    "size": "Size M",
+                    "price": "$230.00"
+                },
+                {
+                    "size": "Size L",
+                    "price": "$480.00"
+                }
+            ],
+            "quantity": 2,
+            "images": [
+                {
+                    "src": "../asserts/Image/missdior7.jpg",
+                    "alt": "Product Thumbnail 1"
+                },
+                {
+                    "src": "../asserts/Image/missdior8.jpg",
+                    "alt": "Product Thumbnail 2"
+                },
+                {
+                    "src": "../asserts/Image/missdior9.jpg",
+                    "alt": "Product Thumbnail 3"
+                }
+            ],
+            "descriptionText": [
+                "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+            ],
+            "reviews": {
+                "total_reviews": 13858,
+                "average_rating": 4.5,
+                "ratings": [
+                    {
+                        "stars": 5,
+                        "percent": "85%",
+                        "count": 11256
+                    },
+                    {
+                        "stars": 4,
+                        "percent": "50%",
+                        "count": 1777
+                    },
+                    {
+                        "stars": 3,
+                        "percent": "25%",
+                        "count": 539
+                    },
+                    {
+                        "stars": 2,
+                        "percent": "20%",
+                        "count": 161
+                    },
+                    {
+                        "stars": 1,
+                        "percent": "10%",
+                        "count": 125
+                    }
+                ],
+                "review_details": [
+                    {
+                        "rating": "★★★★☆",
+                        "date": "2 years ago",
+                        "title": "Long lasting and Luxurious",
+                        "content": "I was super excited to receive a Dior perfume...",
+                        "brand": "DIOR",
+                        "source": "Originally posted on dior.com"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 27,
+            "image": "https://vilip.vn/wp-content/uploads/2023/06/Son-Duong-Dior-Addict-Lip-Glow-1947-Miss-Dior-Mau-Hong-Phan-2.jpg",
+            "name": "DIOR FOREVER SKIN GLOW",
+            "content": "Clean Radiant Foundation - 24 Wear and Hydration",
+            "price": 99.00,
+            "gender": "women",
+            "type": "J'adore L'Or",
+            "tp": "accessories",
+            "Capacity": "150ml",
+            "color": "Beige",
+            "description": "Unisex Eau de Parfum - Chypre Notes",
+            "sizeOptions": [
+                {
+                    "size": "Size S",
+                    "price": "$120.00"
+                },
+                {
+                    "size": "Size M",
+                    "price": "$230.00"
+                },
+                {
+                    "size": "Size L",
+                    "price": "$480.00"
+                }
+            ],
+            "quantity": 2,
+            "images": [
+                {
+                    "src": "../asserts/Image/missdior7.jpg",
+                    "alt": "Product Thumbnail 1"
+                },
+                {
+                    "src": "../asserts/Image/missdior8.jpg",
+                    "alt": "Product Thumbnail 2"
+                },
+                {
+                    "src": "../asserts/Image/missdior9.jpg",
+                    "alt": "Product Thumbnail 3"
+                }
+            ],
+            "descriptionText": [
+                "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+            ],
+            "reviews": {
+                "total_reviews": 13858,
+                "average_rating": 4.5,
+                "ratings": [
+                    {
+                        "stars": 5,
+                        "percent": "85%",
+                        "count": 11256
+                    },
+                    {
+                        "stars": 4,
+                        "percent": "50%",
+                        "count": 1777
+                    },
+                    {
+                        "stars": 3,
+                        "percent": "25%",
+                        "count": 539
+                    },
+                    {
+                        "stars": 2,
+                        "percent": "20%",
+                        "count": 161
+                    },
+                    {
+                        "stars": 1,
+                        "percent": "10%",
+                        "count": 125
+                    }
+                ],
+                "review_details": [
+                    {
+                        "rating": "★★★★☆",
+                        "date": "2 years ago",
+                        "title": "Long lasting and Luxurious",
+                        "content": "I was super excited to receive a Dior perfume...",
+                        "brand": "DIOR",
+                        "source": "Originally posted on dior.com"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 28,
+            "image": "https://product.hstatic.net/1000025647/product/8._son_dior_rouge_mitzah_satin_540_silky_coral_limited_edition__2__3bbb1889e49847c6b4ffbff517f3a8de.png",
+            "name": "DIOR PRESTIGE LE BAUME DE MINUIT",
+            "content": "Intensive Revitalizing Night Cream",
+            "price": 895.00,
+            "gender": "women",
+            "type": "Poison Girl",
+            "tp": "footwear",
+            "Capacity": "350ml",
+            "color": "Gold",
+            "kieu": "miss",
+            "description": "Unisex Eau de Parfum - Chypre Notes",
+            "sizeOptions": [
+                {
+                    "size": "Size S",
+                    "price": "$120.00"
+                },
+                {
+                    "size": "Size M",
+                    "price": "$230.00"
+                },
+                {
+                    "size": "Size L",
+                    "price": "$480.00"
+                }
+            ],
+            "quantity": 2,
+            "images": [
+                {
+                    "src": "../asserts/Image/missdior7.jpg",
+                    "alt": "Product Thumbnail 1"
+                },
+                {
+                    "src": "../asserts/Image/missdior8.jpg",
+                    "alt": "Product Thumbnail 2"
+                },
+                {
+                    "src": "../asserts/Image/missdior9.jpg",
+                    "alt": "Product Thumbnail 3"
+                }
+            ],
+            "descriptionText": [
+                "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+            ],
+            "reviews": {
+                "total_reviews": 13858,
+                "average_rating": 4.5,
+                "ratings": [
+                    {
+                        "stars": 5,
+                        "percent": "85%",
+                        "count": 11256
+                    },
+                    {
+                        "stars": 4,
+                        "percent": "50%",
+                        "count": 1777
+                    },
+                    {
+                        "stars": 3,
+                        "percent": "25%",
+                        "count": 539
+                    },
+                    {
+                        "stars": 2,
+                        "percent": "20%",
+                        "count": 161
+                    },
+                    {
+                        "stars": 1,
+                        "percent": "10%",
+                        "count": 125
+                    }
+                ],
+                "review_details": [
+                    {
+                        "rating": "★★★★☆",
+                        "date": "2 years ago",
+                        "title": "Long lasting and Luxurious",
+                        "content": "I was super excited to receive a Dior perfume...",
+                        "brand": "DIOR",
+                        "source": "Originally posted on dior.com"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 29,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHwxSqYiWiNAzHeVDWoGZ1f2AXzy3o1L4vlg&s",
+            "name": "DIOR PRESTIGE",
+            "content": "La Micro-Huile de Rose Advanced Serum",
+            "price": 238.00,
+            "gender": "women",
+            "type": "Dior Addict Eau Fraîche",
+            "tp": "footwear",
+            "Capacity": "50ml",
+            "color": "Pink",
+            "description": "Unisex Eau de Parfum - Chypre Notes",
+            "sizeOptions": [
+                {
+                    "size": "Size S",
+                    "price": "$120.00"
+                },
+                {
+                    "size": "Size M",
+                    "price": "$230.00"
+                },
+                {
+                    "size": "Size L",
+                    "price": "$480.00"
+                }
+            ],
+            "quantity": 2,
+            "images": [
+                {
+                    "src": "../asserts/Image/missdior7.jpg",
+                    "alt": "Product Thumbnail 1"
+                },
+                {
+                    "src": "../asserts/Image/missdior8.jpg",
+                    "alt": "Product Thumbnail 2"
+                },
+                {
+                    "src": "../asserts/Image/missdior9.jpg",
+                    "alt": "Product Thumbnail 3"
+                }
+            ],
+            "descriptionText": [
+                "Miss Dior Eau de Parfum reinvents itself with a new scent.",
+                "In 1947, Miss Dior was born out of love with a promise to create a fragrance that would re-enchant the lives of women and open up their hearts to new possibilities."
+            ],
+            "reviews": {
+                "total_reviews": 13858,
+                "average_rating": 4.5,
+                "ratings": [
+                    {
+                        "stars": 5,
+                        "percent": "85%",
+                        "count": 11256
+                    },
+                    {
+                        "stars": 4,
+                        "percent": "50%",
+                        "count": 1777
+                    },
+                    {
+                        "stars": 3,
+                        "percent": "25%",
+                        "count": 539
+                    },
+                    {
+                        "stars": 2,
+                        "percent": "20%",
+                        "count": 161
+                    },
+                    {
+                        "stars": 1,
+                        "percent": "10%",
+                        "count": 125
+                    }
+                ],
+                "review_details": [
+                    {
+                        "rating": "★★★★☆",
+                        "date": "2 years ago",
+                        "title": "Long lasting and Luxurious",
+                        "content": "I was super excited to receive a Dior perfume...",
+                        "brand": "DIOR",
+                        "source": "Originally posted on dior.com"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 30,
+            "image": "https://kyo.vn/wp-content/uploads/2023/06/son-duong-dior-1947-miss-dior-6.jpg",
+            "name": "DIOR PRESTIGE LA CRÈME",
+            "content": "Anti-Aging Intensive Repairing Cream",
+            "price": 569.00,
+            "gender": "women",
+            "type": "Dior Homme",
+            "tp": "footwear",
+            "Capacity": "100ml",
+            "color": "White",
+            "quantity": 2
+        },
+        {
+            "id": 31,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSopUjvrlbqjTce492hvlrhcemokukMSzkndg&s",
+            "name": "GRIS DIOR",
+            "content": "Unisex eau de parfum - chypre notes",
+            "price": 235.00,
+            "gender": "women",
+            "type": "Gris Dior",
+            "Capacity": "200ml",
+            "color": "Gray",
+            "quantity": 2
+        },
+        {
+            "id": 32,
+            "image": "https://lipstick.vn/wp-content/uploads/2023/02/son-dior-Maximizer-mau-001-1.jpeg",
+            "name": "DIORIVIER",
+            "content": "Eau de Parfum - Fig and Rose Notes",
+            "price": 235.00,
+            "gender": "women",
+            "type": "Bois d'Argent",
+            "tp": "footwear",
+            "Capacity": "100ml",
+            "color": "Green",
+            "quantity": 2
+        },
+        {
+            "id": 33,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy0nJwRJMcDHlg25LJwqwdvlZ8rISbVf56oA&s",
+            "name": "Dior Sauvage",
+            "content": "Eau de Toilette",
+            "price": 230.00,
+            "gender": "men",
+            "type": "Dior Homme Sport",
+            "tp": "footwear",
+            "Capacity": "300ml",
+            "color": "Blue",
+            "quantity": 2
+        },
+        {
+            "id": 34,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSonM6yXeIqMlRBxUsNFxHU8GHND7_zTQHr_g&s",
+            "name": "MISS DIOR BLOOMING BOUQUET",
+            "content": "Collector's Bottle",
+            "price": 140.00,
+            "gender": "women",
+            "type": "audi",
+            "tp": "footwear",
+            "Capacity": "200ml",
+            "color": "Blue",
+            "quantity": 2
+        },
+        {
+            "id": 35,
+            "image": "https://cdn.chiaki.vn/unsafe/0x500/left/top/smart/filters:quality(75)/https://chiaki.vn/upload/news/content/2023/09/son-kem-dior-addict-lip-tint-651-natural-rose-mau-hong-dat-chiaki-jpg-png-1694487491-12092023095811.png",
+            "name": "LES ADORABLES SET",
+            "content": "Shimmering Scurb, Body Cream and Shimmering Gel",
+            "price": 437.00,
+            "gender": "women",
+            "type": "audi",
+            "tp": "footwear",
+            "Capacity": "300ml",
+            "color": "black",
+            "quantity": 2
+        },
+        {
+            "id": 36,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDIhIjFAhhHXJ1hy3_i25hX7qdiGQTioc8Zw&s",
+            "name": "DIOR LIP GLOW",
+            "content": "Color Awakening Lip Balm",
+            "price": 38.00,
+            "gender": "women",
+            "type": "audi",
+            "tp": "footwear",
+            "Capacity": "250ml",
+            "color": "black",
+            "quantity": 2
+        }
+    ]
+}
