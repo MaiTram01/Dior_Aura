@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home_Admin</title>
+    <link rel="stylesheet" href="../asserts/css/homeAdmin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://www.dior.com/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header-left">
+            <li><a href="javascript:void(0)"><i class="fa-solid fa-phone"></i> Customer Service</a></li>
+            <li><a href="javascript:void(0)"><i class="fa-solid fa-location-dot"></i> The Boutiques</a></li>
+        </nav>
+
+        <nav class="header-right">
+            <div class="input-container">
+                <input type="text" id="header-input" class="header-input" placeholder="Search on dior.com">
+                <ul id="results"></ul> <!-- cái này để hiển thị mấy cái gợi ý  -->
+                <button class="button-search" onclick="searchProduct()"> <!-- Gán sự kiện cho tìm kiếm -->
+                    <i style="color:rgb(176, 168, 168);" class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <li>
+                <a href="javascript:void(0)">
+                    <i class="fa-solid fa-bell" onclick="toggleNotification()"></i>
+                </a>
+            </li>
+            <li><a href=""><i class="fa-solid fa-user-large"></i> Admin</a></li>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="content-left">
+            <ul class="title_left"><b>CODE</b>
+                <li id="name-title-pro"><i class="bi bi-browser-safari"></i> Product Management</li>
+                <li onclick="openUser()"><i class="bi bi-browser-safari"></i> Users Management</li>
+                <li onclick="openConfirmation()"><i class="bi bi-box"></i> Order Confirmation</li>
+            </ul>
+            <ul class="title_left"><b>INTERFACE</b>
+                <li><i class="bi bi-layout-split"></i> Layout</li>
+                <li><i class="bi bi-book"></i> Page</li>
+            </ul>
+            <ul class="title_left"><b>ADDONS</b>
+                <li onclick="openChart()"><i class="bi bi-bar-chart-line-fill"></i> Chart</li>
+                <li><i class="bi bi-table"></i> Table</li>
+            </ul>
+
+        </div>
+        <div class="content-right">
+            <div class="content_product">
+                <div class="header-content">
+                    <h2 class="header_content">Product Management</h2>
+                    <button onclick="openAddProduct()" class="btn_create">+ Create</button>
+                    <div class="quantities" id="qty"></div>
+                </div>
+                <div class="body_content">
+                    <table id="pro_table">
+                        <thead>
+                            <tr>
+                                <th class="th_table">ID</th>
+                                <th class="th_table">Name</th>
+                                <th class="th_table">Image</th>
+                                <th class="th_table">Price</th>
+                                <th class="th_table">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="content_table">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CREATE -->
+    <div class="containerr" id="productsModal">
+        <div class="color_page"></div>
+        <h1 class="header_add">ADD NEW PRODUCT</h1>
+
+        <div class="nameInput">
+            <label for="">Enter name</label>
+            <input class="input" id="name" type="text" placeholder="Name">
+        </div>
+
+        <div class="titleInput">
+            <label for="">Enter title </label>
+            <input class="input" id="title" type="text" placeholder="Title">
+        </div>
+
+        <div class="priceInput">
+            <label for="">Enter the Price</label>
+            <input class="input" id="price" type="text" placeholder="Price">
+        </div>
+
+        <div class="description">
+            <label for="">Enter description</label>
+            <textarea id="comments" placeholder="Description "></textarea>
+        </div>
+
+        <div class="imageOption">
+            <div class="file-input">Choose picture:</div>
+            <label class="custom-file-upload">
+                <input type="file" accept="image/*" id="file-input">
+            </label>
+        </div>
+
+        <div class="typePro">
+            <div class="product-type">Type of product:</div>
+            <div class="radio-group">
+                <label><input type="radio" name="product" value="perfume"> Perfume</label>
+                <label><input type="radio" name="product" value="makeup"> Makeup</label>
+                <label><input type="radio" name="product" value="skincare"> Skincare</label>
+                <label><input type="radio" name="product" value="clothing"> Clothing</label>
+                <label><input type="radio" name="product" value="accessories"> Accessories</label>
+                <label><input type="radio" name="product" value="footwear"> Footwear</label>
+            </div>
+        </div>
+        <div class="typePro">
+            <div class="product-type">Gender:</div>
+            <div class="radio-group2">
+                <label><input type="radio" name="gender" value="men">Man</label>
+                <label><input type="radio" name="gender" value="women">Woman</label>
+            </div>
+        </div>
+        <!-- Capacity -->
+        <div class="capacityPro">
+            <div class="product-type">Capacity:</div>
+            <div class="capacity-options">
+                <label><input type="radio" name="capacity" value="50 ml">50 ml</label>
+                <label><input type="radio" name="capacity" value="100 ml">100 ml</label>
+                <label><input type="radio" name="capacity" value="150 ml">150 ml</label>
+                <label><input type="radio" name="capacity" value="200 ml">200 ml</label>
+                <label><input type="radio" name="capacity" value="250 ml">250 ml</label>
+                <label><input type="radio" name="capacity" value="300 ml">300 ml</label>
+                <label><input type="radio" name="capacity" value="350 ml">350 ml</label>
+            </div>
+        </div>
+        <!-- mau -->
+        <div class="colorPro">
+            <div class="product-type">Color:</div>
+            <div class="color-options">
+                <label><input type="radio" name="color" value="black"> <span style="background-color: black;"></span>
+                    Black</label>
+                <label><input type="radio" name="color" value="pink"> <span style="background-color: pink;"></span>
+                    Pink</label>
+                <label><input type="radio" name="color" value="yellow"> <span style="background-color: yellow;"></span>
+                    Yellow</label>
+                <label><input type="radio" name="color" value="blue"> <span style="background-color: blue;"></span>
+                    Blue</label>
+                <label><input type="radio" name="color" value="red"> <span style="background-color: red;"></span>
+                    Red</label>
+                <label><input type="radio" name="color" value="gray"> <span style="background-color: gray;"></span>
+                    Gray</label>
+                <label><input type="radio" name="color" value="green"> <span style="background-color: green;"></span>
+                    Green</label>
+            </div>
+        </div>
+        <div class="categogyInput">
+            <label for="">Enter category</label>
+            <input type="text" id="category" class="input" placeholder="Category">
+        </div>
+        <div class="btn-group">
+            <button onclick="closeAddproduct()" class="cancelProduct">Cancel</button>
+            <button class="subProduct" type="button" onclick="addProduct()">Create</button>
+        </div>
+
+    </div>
+    <!-- Update -->
+    <div class="containerr_update" id="update_pro">
+        <div class="color_page"></div>
+        <h1 class="header_add">UPDATE PRODUCT</h1>
+
+        <div class="nameInput">
+            <label for="">Enter name</label>
+            <input class="input" id="name_update" type="text" placeholder="Name">
+        </div>
+
+        <div class="titleInput">
+            <label for="">Enter title </label>
+            <input class="input" id="title_update" type="text" placeholder="Title">
+        </div>
+
+        <div class="priceInput">
+            <label for="">Enter the Price</label>
+            <input class="input" id="price_update" type="text" placeholder="Price">
+        </div>
+
+        <div class="description">
+            <label for="">Enter description</label>
+            <textarea id="comments_update" placeholder="Description "></textarea>
+        </div>
+
+        <div class="image">
+            <label for="">Enter url of image</label>
+            <input class="input" id="image" type="text" placeholder="URL...">
+        </div>
+
+        <div class="typePro">
+            <div class="product-type">Type of product:</div>
+            <div class="radio-group">
+                <label><input type="radio" name="product_update" value="perfume"> Perfume</label>
+                <label><input type="radio" name="product_update" value="makeup"> Makeup</label>
+                <label><input type="radio" name="product_update" value="skincare"> Skincare</label>
+                <label><input type="radio" name="product_update" value="clothing"> Clothing</label>
+                <label><input type="radio" name="product_update" value="accessories"> Accessories</label>
+                <label><input type="radio" name="product_update" value="footwear"> Footwear</label>
+            </div>
+        </div>
+        <div class="typePro">
+            <div class="product-type">Gender:</div>
+            <div class="radio-group2">
+                <label><input type="radio" name="gender_update" value="men">Man</label>
+                <label><input type="radio" name="gender_update" value="women">Woman</label>
+            </div>
+        </div>
+        <!-- Capacity -->
+        <div class="capacityPro">
+            <div class="product-type">Capacity:</div>
+            <div class="capacity-options">
+                <label><input type="radio" name="capacity_update" value="50ml"> 50 ml</label>
+                <label><input type="radio" name="capacity_update" value="100ml">100 ml</label>
+                <label><input type="radio" name="capacity_update" value="150ml">150 ml</label>
+                <label><input type="radio" name="capacity_update" value="200ml"> 200 ml</label>
+                <label><input type="radio" name="capacity_update" value="250ml"> 250 ml</label>
+                <label><input type="radio" name="capacity_update" value="300ml"> 300 ml</label>
+                <label><input type="radio" name="capacity_update" value="350ml"> 350 ml</label>
+            </div>
+        </div>
+        <!-- mau -->
+        <div class="colorPro">
+            <div class="product-type">Color:</div>
+            <div class="color-options">
+                <label><input type="radio" name="color_update" value="Black"> <span
+                        style="background-color: black;"></span> Black</label>
+                <label><input type="radio" name="color_update" value="Pink"> <span
+                        style="background-color: pink;"></span> Pink</label>
+                <label><input type="radio" name="color_update" value="Yellow"> <span
+                        style="background-color: yellow;"></span> Yellow</label>
+                <label><input type="radio" name="color_update" value="Blue"> <span
+                        style="background-color: blue;"></span> Blue</label>
+                <label><input type="radio" name="color_update" value="Red"> <span style="background-color: red;"></span>
+                    Red</label>
+                <label><input type="radio" name="color_update" value="Gray"> <span
+                        style="background-color: gray;"></span> Gray</label>
+                <label><input type="radio" name="color_update" value="Green"> <span
+                        style="background-color: green;"></span> Green</label>
+            </div>
+        </div>
+        <div class="categogyInput">
+            <label for="">Enter category</label>
+            <input type="text" id="category_update" class="input" placeholder="Category">
+        </div>
+        <div class="btn-group">
+            <button class="cancelProduct" type="button" onclick="closeFormUpdate()">Cancel</button>
+            <button class="subProduct" type="button" onclick="openFormUpdate()">Update</button>
+        </div>
+
+    </div>
+    <!-- Xác nhận xóa -->
+    <div class="confirmation-box" id="formRemove">
+        <h2>Confirm Delete</h2>
+        <p>Are you sure you want to delete this product?</p>
+        <button onclick="removeData()" class="button confirm">Delete</button>
+        <button onclick="closeFormRemove()" class="button cancel">Cancel</button>
+    </div>
+    <!-- Xac nhan update -->
+    <div class="confirmation-update" id="formUpdate">
+        <h2>Confirm Data Update</h2>
+        <p>Are you sure you want to update this product data?</p>
+        <button onclick="createUpdate()" class="button confirm">Yes</button>
+        <button onclick="closeFormUpdate()" class="button cancel">Cancel</button>
+    </div>
+    <script src="../asserts/javaScript/homeAdmin.js"></script>
+</body>
+
+</html>

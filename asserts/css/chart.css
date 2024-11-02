@@ -1,0 +1,245 @@
+body {
+    font-family: 'Kaisei Tokumin', serif;
+    padding-top: 50px;
+    /* Điều chỉnh theo chiều cao header */
+    margin: 0;
+    /* Đảm bảo không có lề mặc định */
+    overflow-x: hidden;
+    /* Ngăn chặn cuộn ngang */
+}
+
+/* <!-- THANH HEADER PHÍA TRÊN ĐIỀU HƯỚNG -->*/
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #F7C9CC;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* Đảm bảo header nằm trên các phần tử khác */
+}
+
+.header-left,
+.header-right {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    /* Tắt dấu chấm tròn */
+}
+
+.header-left li,
+.header-right li {
+    margin-right: 20px;
+}
+
+/* Đặt container cho input và button */
+.input-container {
+    position: relative;
+    width: 300px;
+    /* Độ rộng của input và button */
+}
+
+/* Đặt style cho input */
+.input-container input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    padding-right: 1px;
+    /* Chừa khoảng trống cho nút button */
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+}
+
+/* Đặt style cho button */
+.input-container button {
+    position: absolute;
+    right: 25px;
+    top: 2px;
+    height: 90%;
+    width: 40px;
+    background-color: white;
+    border: none;
+    padding: -3 10px;
+    border-radius: 0 10px 10px 0;
+    /* Bo góc phải của button */
+    cursor: pointer;
+}
+
+.fa-regular.fa-magnifying-glass {
+    color: black;
+    /* Đặt màu biểu tượng thành đen */
+    font-size: 100%;
+}
+
+/* Chỉnh thêm nút và các mục trong header */
+.header-right li {
+    display: flex;
+    align-items: center;
+}
+
+.header li a {
+    color: white;
+    /* Đặt màu trắng cho cả biểu tượng và văn bản */
+    text-decoration: none;
+    /* Tắt gạch chân nếu cần */
+}
+
+.header li a:hover {
+    color: #e77e7e;
+    /* Thêm hiệu ứng hover nếu cần, ví dụ màu xám nhạt */
+}
+
+
+/* <!-- THANH HEADER PHÍA DƯỚI --> */
+#head {
+    text-align: center;
+}
+
+
+.head h1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    /* Tạo khoảng cách dưới tiêu đề */
+    font-size: 50px;
+}
+
+.head nav ul {
+    list-style-type: none;
+    /* Tắt dấu chấm tròn */
+    padding: 0;
+    /* Loại bỏ khoảng cách mặc định của ul */
+    margin: 0;
+    display: flex;
+    /* Sử dụng flexbox để sắp xếp các mục nằm ngang */
+    justify-content: center;
+    /* Căn giữa các mục */
+}
+
+.head nav ul li {
+    margin: 0 15px;
+    /* Tạo khoảng cách giữa các mục */
+}
+
+.head nav ul li a {
+    text-decoration: none;
+    /* Tắt gạch chân */
+    color: black;
+    /* Màu văn bản */
+    font-weight: bold;
+    /* Tăng độ đậm của văn bản */
+}
+
+.head nav ul li a:hover {
+    color: #888;
+}
+.content{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: 100%;  
+}
+.content .content-left{
+    /* border-right: 1px solid black; */
+    width: 250px;
+    position: fixed;
+    margin-top: 38px;
+    left: 8px ;
+    /* padding-left: 20px;
+    border-right: 1px solid black; */
+  
+}
+
+
+.content-right{
+    margin-left: 270px;
+    
+    height: 100%; 
+}
+.header_content{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: 'Kaisei Tokumin';
+}
+
+b{
+    font-size: 18px;
+    font-family: 'Kaisei Tokumin';
+}
+.title_left li{
+    padding-left: 20px;
+    /* padding-top: 10px; */
+    list-style-type: none;
+    margin: 30px 0;
+    font-size: 16px;
+    font-family: 'Kaisei Tokumin';
+    
+}
+.title_left li:hover{
+    cursor: pointer;
+    color: black;
+}
+/* moi them */
+.body_content{
+    border-top: 1px solid black;
+    margin-top: 110px;
+
+}
+.header-content{
+    position: fixed;
+    top: 60px;
+    margin-bottom: 5px;
+    background-color: white;
+    width: 100%;
+}
+.th_table{
+    padding: 8px 84px;
+    background-color: #F7C9CC;
+    font-family: 'Kaisei Tokumin';
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+#th_table_1{
+    border-bottom: 3px solid orange;
+    color: white;
+    background-color: #e79ba0;
+}
+.content_product {
+    display: block; /* Bắt đầu ẩn */
+}
+.bar{
+    
+    border-top: 3px solid white;
+}
+.bar th{
+    text-align: center;
+    background-color: #b89396;
+    padding: 8px 0px;
+}
+
+.bi-search{
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+}
+/* bieu do */
+.chart {
+    width: 700px;
+    margin-left: 150px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* padding-right: 0; */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+#chart_text{
+    color:#d87d83;
+}
