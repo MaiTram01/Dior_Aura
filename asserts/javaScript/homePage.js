@@ -2,11 +2,11 @@
 function renderProducts(cardList, elementId) {
     let div = cardList.map(p =>
         `<div class='course-item'>
-            <img src='${p.image}' alt='${p.name}' onclick="window.location.href='../../pages/detail.html?id=${p.id}'"/>
+            <img src='${p.image}' alt='${p.name}' onclick="window.location.href='../pages/detail.html?id=${p.id}'"/>
             <h3>${p.name}</h3>
             <p>${p.content}</p>
             <h5 class="price">From: <span class="price-value">${p.price}</span></h5>
-            <a href="../../pages/detail.html?id=${p.id}" class="more-info">></a>
+            <a href="../pages/detail.html?id=${p.id}" class="more-info">></a>
         </div>`
     ).join("");
     document.getElementById(elementId).innerHTML = div;
